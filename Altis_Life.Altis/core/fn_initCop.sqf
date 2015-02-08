@@ -6,17 +6,15 @@
 	Description:
 	Cop Initialization file.
 */
-private["_end"];
 player addRating 9999999;
 waitUntil {!(isNull (findDisplay 46))};
-_end = false;
 if(life_blacklisted) exitWith
 {
 	["Blacklisted",false,true] call BIS_fnc_endMission;
 	sleep 30;
 };
 
-if(__GETC__(life_coplevel) == 0) then {
+if(__GETC__(life_coplevel) == 0) exitWith {
 	["NotWhitelisted",false,true] call BIS_fnc_endMission;
 	sleep 35;
 };

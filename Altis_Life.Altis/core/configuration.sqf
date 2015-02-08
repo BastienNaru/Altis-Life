@@ -97,6 +97,12 @@ switch (playerSide) do
 		f2wqRL3J46UYrNb4pchK = 2000; //Paycheck Amount
 	};
 	
+	case east:
+	{
+		R6cuXKTCWDZFxfbfdATm = 10000;
+		f2wqRL3J46UYrNb4pchK = 5000;
+	};
+	
 	case independent: {
 		R6cuXKTCWDZFxfbfdATm = 6500;
 		f2wqRL3J46UYrNb4pchK = 4000;

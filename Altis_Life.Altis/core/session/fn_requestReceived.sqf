@@ -52,6 +52,12 @@ switch(playerSide) do {
 		life_blacklisted = _this select 9;
 	};
 	
+	case east: {
+		__CONST__(life_mercoLevel,parseNumber(_this select));
+		__CONST__(life_coplevel, 0);
+		__CONST__(life_medicLevel, 0);
+	};
+	
 	case civilian: {
 		life_is_arrested = _this select 7;
 		__CONST__(life_coplevel, 0);

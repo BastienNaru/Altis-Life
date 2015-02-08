@@ -32,11 +32,6 @@ if (license_civ_taxi) then {
 	player setVariable["taxi",true,true];
 };
 
-if (license_civ_mercenaire) then {
-	player setVariable["mercenaire",true,true];
-	f2wqRL3J46UYrNb4pchK = 5000;
-};
-
 if (life_is_arrested) then {
 	life_is_arrested = false;
 	[player,true] spawn life_fnc_jail;
