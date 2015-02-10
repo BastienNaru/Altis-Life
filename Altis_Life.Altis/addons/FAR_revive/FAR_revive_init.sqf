@@ -12,9 +12,8 @@ if (isDedicated) exitWith {};
 
 mf_compile = compileFinal
 ('
-	private ["_path", "_isDebug", "_code"];
+	private ["_path", "_code"];
 	_path = "";
-	_isDebug = false;
 
 	switch (toUpper typeName _this) do {
 		case "STRING": {
@@ -31,22 +30,14 @@ mf_compile = compileFinal
 	};
 
 	if (isNil "_code") then {
-		if (_isDebug) then {
-			compile format ["call compile preProcessFileLineNumbers ""%1""", _path]
-		} else {
-			compileFinal preProcessFileLineNumbers _path
-		};
+		compileFinal preProcessFileLineNumbers _path
 	} else {
-		if (_isDebug) then {
-			compile toString _code
-		} else {
-			compileFinal toString _code
-		};
+		compileFinal toString _code
 	};
 ');
 
 #include "FAR_defines.sqf"
-#include "gui_defines.hpp"
+#include "includes\gui_defines.hpp"
 
 call compile preprocessFile "addons\FAR_revive\FAR_revive_funcs.sqf";
 

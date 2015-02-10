@@ -4,7 +4,7 @@
 //	@file Name: revive_gui.hpp
 //	@file Author: AgentRev
 
-#include "gui_defines.hpp"
+#include "includes\gui_defines.hpp"
 
 // To block input without showing anything
 class ReviveBlankGUI

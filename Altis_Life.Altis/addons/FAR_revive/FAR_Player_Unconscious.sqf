@@ -5,7 +5,7 @@
 //	@file Author: Farooq, AgentRev
 
 #include "FAR_defines.sqf"
-#include "gui_defines.hpp"
+#include "includes\gui_defines.hpp"
 
 disableSerialization;
 
@@ -319,7 +319,7 @@ while {UNCONSCIOUS(_unit) && diag_tickTime < _bleedOut} do
 			_time = _bleedOut - diag_tickTime;
 
 			_progBar progressSetPosition ((_bleedOut - diag_tickTime) / FAR_BleedOut);
-			_progText ctrlSetText format ["Mort dans %1 secondes", _time];
+			_progText ctrlSetText format ["Mort dans %1 secondes", ceil _time];
 
 			//(FAR_cutTextLayer + 1) cutText [format ["\n\nBleedout in %1\n\n%2", _time, call FAR_CheckFriendlies], "PLAIN DOWN"];
 		};

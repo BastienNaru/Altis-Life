@@ -26,7 +26,10 @@ corpseRemovalMaxTime = 9999;
 #include "dialog\MasterHandler.h"
 
 // Addons includes
-#include "addons\far_revive\revive_gui.hpp"
+#include "addons\FAR_revive\includes\gui_base.hpp"
+#include "addons\FAR_revive\includes\common.hpp"
+#include "addons\FAR_revive\includes\ui_toolkit.hpp"
+#include "addons\FAR_revive\revive_gui.hpp"
 
 class RscTitles
 {

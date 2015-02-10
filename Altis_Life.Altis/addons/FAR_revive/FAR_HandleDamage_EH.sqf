@@ -6,13 +6,13 @@
 
 #include "FAR_defines.sqf"
 
-//private ["_unit", "_selection", "_damage", "_source", "_dead", "_killerVehicle", "_oldDamage"];
+private ["_unit", "_selection", "_damage", "_source", "_dead", "_killerVehicle", "_oldDamage"];
 
-//_unit = _this select 0;
-//_selection = _this select 1;
-//_damage = _this select 2;
-//_source = _this select 3;
-//_ammo = _this select 4;
+_unit = _this select 0;
+_selection = _this select 1;
+_damage = _this select 2;
+_source = _this select 3;
+_ammo = _this select 4;
 
 _criticalHit = (_selection in ["","body","head"]);
 _dead = (_damage >= 1 && alive _unit && _criticalHit);
@@ -87,7 +87,7 @@ else
 	if (_dead && alive vehicle _unit) then
 	{
 		_unit setVariable ["FAR_isUnconscious", 1, true];
-		//[] spawn fn_deletePlayerData;
+		[3] call SOCK_fnc_updatePartial;
 
 		_unit allowDamage false;
 		if (vehicle _unit == _unit) then { [_unit, "AinjPpneMstpSnonWrflDnon"] call switchMoveGlobal };

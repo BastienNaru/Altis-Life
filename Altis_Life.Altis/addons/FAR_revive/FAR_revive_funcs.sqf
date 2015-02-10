@@ -28,6 +28,7 @@ FAR_HandleDamage_EH = "addons\FAR_revive\FAR_HandleDamage_EH.sqf" call mf_compil
 // Make Player Unconscious
 ////////////////////////////////////////////////
 FAR_Player_Unconscious = "addons\FAR_revive\FAR_Player_Unconscious.sqf" call mf_compile;
+switchMoveGlobal = "addons\FAR_revive\switchMoveGlobal.sqf" call mf_compile;
 
 ////////////////////////////////////////////////
 // Revive Player
