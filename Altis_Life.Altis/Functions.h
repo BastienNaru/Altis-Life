@@ -41,6 +41,7 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
+		class initMerco {};
 		class welcomeNotification {};
 	};
 
@@ -110,6 +111,7 @@ class Life_Client_Core
 		class takeCagoule {};
 		class takeMap {};
 		class takePhone {};
+		class takeUniform {};
 	};
 
 	class Housing
@@ -306,6 +308,8 @@ class Life_Client_Core
 		class doorAnimate {};
 		class fedCamDisplay {};
 		class copLoadout {};
+		class copShowLicense {};
+        class copLicenseShown {};
 	};
 
 	class Gangs

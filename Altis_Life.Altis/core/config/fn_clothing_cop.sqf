@@ -46,6 +46,7 @@ switch (_filter) do
 		{	
 			_ret set[count _ret,["H_HelmetB_plain_mcamo",nil,75]];
 			_ret set[count _ret,["H_Booniehat_mcamo",nil,120]];
+			_ret set[count _ret,["H_PilotHelmetFighter_B","Masque a gaz",500]];
 		};
 		
 		if(__GETC__(life_coplevel) > 4) then
@@ -79,7 +80,7 @@ switch (_filter) do
 
 		if(__GETC__(life_coplevel) > 5) then
 		{
-		_ret set[count _ret,["G_Balaclava_blk",nil,75]];
+			_ret set[count _ret,["G_Balaclava_blk",nil,75]];
 		};
 	};
 	

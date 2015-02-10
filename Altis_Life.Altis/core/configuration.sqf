@@ -97,6 +97,12 @@ switch (playerSide) do
 		f2wqRL3J46UYrNb4pchK = 2000; //Paycheck Amount
 	};
 	
+	case east:
+	{
+		R6cuXKTCWDZFxfbfdATm = 10000;
+		f2wqRL3J46UYrNb4pchK = 5000;
+	};
+	
 	case independent: {
 		R6cuXKTCWDZFxfbfdATm = 6500;
 		f2wqRL3J46UYrNb4pchK = 4000;
@@ -356,6 +362,8 @@ life_garage_prices =
 	["O_MRAP_02_F",45000],
 	["B_Heli_Light_01_F",45000],
 	["O_Heli_Light_02_unarmed_F",65000],
+	["B_Heli_Attack_01_F",90000],
+	["O_Heli_Attack_02_F",110000],
 	["C_Rubberboat",400],
 	["C_Boat_Civil_01_F",4500],
 	["B_Boat_Transport_01_F",450],
@@ -385,6 +393,8 @@ life_garage_sell =
 	["O_MRAP_02_F",65000],
 	["B_Heli_Light_01_F",57000],
 	["O_Heli_Light_02_unarmed_F",72500],
+	["B_Heli_Attack_01_F",100000],
+	["O_Heli_Attack_02_F",120000],
 	["C_Rubberboat",950],
 	["C_Boat_Civil_01_F",6800],
 	["B_Boat_Transport_01_F",850],
@@ -414,6 +424,8 @@ life_garage_insurance =
 	["O_MRAP_02_F",65000],
 	["B_Heli_Light_01_F",57000],
 	["O_Heli_Light_02_unarmed_F",72500],
+	["B_Heli_Attack_01_F",100000],
+	["O_Heli_Attack_02_F",120000],
 	["C_Rubberboat",950],
 	["C_Boat_Civil_01_F",6800],
 	["B_Boat_Transport_01_F",850],

@@ -249,7 +249,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"Interdit aux civils !"};
-				case (__GETC__(life_coplevel) < 3)  :
+				case (__GETC__(life_coplevel) < 4)  :
 				{
 					["Divers",
 						[
@@ -283,7 +283,8 @@ switch(_shop) do
 							["Chemlight_yellow",nil,300],
 							["Chemlight_green",nil,300],
 							["Chemlight_blue",nil,300],
-							["MiniGrenade","Flashbang",500],
+							["MiniGrenade","Grenade aveuglante",500],
+							["SmokeShellBlue","Gaz lacrymogene",500],
 							["ToolKit",nil,250],
 							["FirstAidKit",nil,150],
 							["Medikit",nil,2000],
