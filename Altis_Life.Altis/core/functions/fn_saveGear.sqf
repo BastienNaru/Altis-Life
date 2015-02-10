@@ -7,6 +7,10 @@
     Description:
     Saves the players gear for syncing to the database for persistence..
 */
+if (player getVariable["FAR_isUnconscious",0] == 1) exitWith {
+	life_gear = [];
+};
+
 private["_return","_uItems","_bItems","_vItems","_pItems","_sItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled"];
 _return = [];
 
@@ -21,6 +25,7 @@ if(playerSide == west || playerSide == civilian && {(call life_save_civ)}) then 
     _return pushBack secondaryWeapon player;
     _return pushBack handgunWeapon player;
 } else {
+    _return pushBack [];
     _return pushBack [];
     _return pushBack [];
 };

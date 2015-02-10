@@ -22,7 +22,7 @@ if(!isNil "TON_Debug") then {
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["B_9x21_Ball"] && _curWep in ["hgun_P07_snds_F"]) then {
+		if(_projectile in ["B_9x21_Ball"] && _curWep in ["hgun_P07_F","hgun_P07_snds_F"]) then {
 			//if(side _source == west && playerSide != west) then {
 				private["_distance","_isVehicle","_isQuad"];
 				_distance = 15;
@@ -58,32 +58,27 @@ if (_projectile in ["mini_Grenade"]) then {
 	[_projectile] spawn life_fnc_handleFlashbang;
 };
 
-// FAR Revive
-if (alive _unit && _damage >= 1 && _isUnconscious == 0 && _part !="") then 
-{	
-		diag_log format ["FAR condition Unit alive: %1, damage:%2, isUnconscious: %3, isHit: %4", alive _unit, _damage, _isUnconscious, _part];
-		
-		_unit setDamage (0);
-		_unit allowDamage false;
-		_damage = 0;
-
-		[_unit, _source] spawn FAR_Player_Unconscious;
-	
-	if(side _source != west && alive _source && _source != _unit) then
+if (_part != "?") then
+{
+	// Reduce impact damage (from vehicle collisions and falling)
+	if (_projectile == "") then
 	{
-		if(vehicle _source isKindOf "LandVehicle") then
+		_oldDamage = if (_selection == "") then { damage _unit } else { _unit getHit _selection };
+
+		if (!isNil "_oldDamage") then
 		{
-			if(alive _source) then
-			{
-				[[getPlayerUID _source,name _source,"187V"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+			_damage = if ((vehicle _unit) isKindOf "ParachuteBase") then {
+				_oldDamage // Disable collision damage while in parachute
+			} else {
+				((_damage - _oldDamage) * 0.5) + _oldDamage
 			};
-		}
-		else
-		{
-			[[getPlayerUID _source,name _source,"187"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 		};
 	};
+
+	// Revive stuff
+	_this call FAR_HandleDamage_EH;
 };
 
 [] call life_fnc_hudUpdate;
+
 _damage;
