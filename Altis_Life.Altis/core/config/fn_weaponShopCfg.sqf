@@ -255,6 +255,7 @@ switch(_shop) do
 						[
 							["ItemMap",nil,50],
 							["ItemGPS",nil,1250],
+							["ItemRadio",nil,200],
 							["Binocular",nil,150],
 							["NVGoggles",nil,2500],
 							["Rangefinder",nil,3400],
@@ -276,6 +277,7 @@ switch(_shop) do
 						[
 							["ItemMap",nil,50],
 							["ItemGPS",nil,1250],
+							["ItemRadio",nil,200],
 							["Binocular",nil,150],
 							["NVGoggles",nil,2500],
 							["Rangefinder",nil,3400],

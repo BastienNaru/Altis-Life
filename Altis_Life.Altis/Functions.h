@@ -311,6 +311,12 @@ class Life_Client_Core
 		class copShowLicense {};
         class copLicenseShown {};
 	};
+	
+	class Merco
+	{
+		file = "core\merco";
+		class mercoLoadout {};
+	};
 
 	class Gangs
 	{

@@ -27,8 +27,11 @@ switch (_side) do
 	
 	case east:
 	{
-		_return = [["merco_spawn_1","Base Mercenaire","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
-	}
+		_return = [
+			["merco_spawn_1","Base Mercenaire","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["merco_spawn_2","Base Mercenaire","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+		];
+	};
 	
 	case civilian:
 	{
@@ -49,7 +52,7 @@ switch (_side) do
 				//["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["civ_spawn_5","Neochiri","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
-			if (license_civ_medecin) then{
+			if (license_civ_medecin) then {
 				_return pushBack ["medic_spawn_1","Hôpital Kavala","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];
 				_return pushBack ["medic_spawn_2","Poste de secours de l'aéroport","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];
 				_return pushBack ["medic_spawn_3","Poste de secours de Pyrgos","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];
