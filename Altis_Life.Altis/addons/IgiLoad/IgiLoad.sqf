@@ -52,7 +52,7 @@ if (isnil "IL_Variables") then
 	IL_CDamage = 0;
 
 	//AddAction menu position
-	IL_Action_LU_Priority = 30; //Load and (para)unload
+	IL_Action_LU_Priority = 0; //Load and (para)unload
 	IL_Action_O_Priority = 0;	//Open and close
 	IL_Action_S_Priority = 0; //Setup
 
