@@ -1,5 +1,8 @@
-if (isnil "cargod" ) then {cargod=0};
-if (Cargod==0) then
+if (isnil "cargod" ) then {
+	cargod = true
+};
+
+if (cargod == true) then
 {
 	cutText [format["CarGod On"], "PLAIN DOWN"];
 	hint format["CarGod On"];
