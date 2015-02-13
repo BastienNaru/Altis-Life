@@ -295,6 +295,7 @@ class Life_Client_Core
 		class restrain {};
 		class ticketGive {};
 		class ticketPay {};
+		class ticketPaid {};
 		class ticketPrompt {};
 		class copSiren {};
 		class spikeStripEffect {};
