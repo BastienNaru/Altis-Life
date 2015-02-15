@@ -37,7 +37,8 @@ switch (_vehicle) do
 			["textures\vehicules\police\C_Hatchback_01_sport_F Gendarmerie.jpg","cop"],
 			["textures\vehicules\civil\C_Hatchback_01_sport_F Vert Tribal.jpg","civ"],
 			["textures\vehicules\civil\C_Hatchback_01_sport_F Orange Sport.jpg","civ"],
-			["textures\vehicules\police\C_Hatchback_01_sport_F Police.jpg","cop"]
+			["textures\vehicules\police\C_Hatchback_01_sport_F Police.jpg","cop"],
+			["textures\vehicules\civil\C_Hatchback_01_sport_F Secouriste","med"]
 		];
 	};
 		
