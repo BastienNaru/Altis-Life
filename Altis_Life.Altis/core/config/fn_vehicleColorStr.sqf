@@ -26,6 +26,8 @@ switch (_vehicle) do
 			case 7: {_color = "Police"};
 			case 8: {_color = "Taxi"};
 			case 9: {_color = "Depanneuse"};
+			case 10: {_color = "Mercenaire";};
+			case 11: {_color = "Secouriste";};
 		};
 	};
 	//Dep

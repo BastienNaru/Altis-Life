@@ -60,6 +60,7 @@ FAR_HandleRevive =
 				{
 					_target setDamage 0;
 					_target setCaptive false;
+					_target setFatigue 1;
 
 					_target playMove format ["AmovPpneMstpSrasW%1Dnon", _target call getMoveWeapon];
 				};

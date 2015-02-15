@@ -54,7 +54,9 @@ switch (_vehicle) do
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["textures\vehicules\police\C_Offroad_01_F Police.jpg","cop"],
 			["textures\vehicules\civil\C_Offroad_01_F Taxi.jpg","civ"],
-			["textures\vehicules\civil\C_Offroad_01_F Depanneuse.jpg","civ"]
+			["textures\vehicules\civil\C_Offroad_01_F Depanneuse.jpg","civ"],
+			["textures\vehicules\mercenaire\C_Offroad_01_F Mercenaire.jpg","merco"],
+			["textures\vehicules\civil\C_Offroad_01_F Secouriste.jpg","med"]
 		];
 	};
 		
