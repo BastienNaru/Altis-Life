@@ -1,8 +1,29 @@
 waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "infos") exitwith{};
 
-player createDiarySubject ["infos","Informations utiles"];
-player createDiarySubject ["touches","Touches"];
+player createDiarySubject ["infos","Infos utiles"];
+player createDiarySubject ["touches","Touches Altis Life"];
+
+	player createDiaryRecord ["infos",
+		[
+			"TeamSpeak",
+				"
+				<br />
+				Notre TeamSpeak: <font color='#AAF200'>ts.altislife-france.com</font>
+				"
+		]
+	];
+
+	player createDiaryRecord ["infos",
+		[
+			"Site web",
+				"
+				<br />
+				Notre Site: <font color='#AAF200'><a href='http://www.altislife.france.com'>www.altislife-france.com</a></font><br />
+				"
+		]
+	];
+
 
 	player createDiaryRecord ["infos",
 		[
@@ -16,6 +37,7 @@ player createDiarySubject ["touches","Touches"];
 				"
 		]
 	];
+
 
 	player createDiaryRecord ["touches",
 		[
