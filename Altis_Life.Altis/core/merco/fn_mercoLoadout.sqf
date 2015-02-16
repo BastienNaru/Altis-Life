@@ -11,7 +11,7 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 //Load player with default merco gear.
-player addUniform "U_B_CombatUniform_mcam_worn";
+player forceAddUniform "U_B_CombatUniform_mcam_worn";
 //player addVest "V_I_G_resistanceLeader_F";
 
 

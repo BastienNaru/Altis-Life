@@ -5,7 +5,7 @@ removeAllWeapons _this;
 _this enableSimulation false; 
 _this allowDamage false; 
 _this addAction["<t color='#AAF200'>Concessionnaire Mercenaire</t>",
-life_fnc_vehicleShopMenu,["merco_v",civilian,["merco_v_1","merco_v_1_1"]
+life_fnc_vehicleShopMenu,["merco_v",east,["merco_v_1","merco_v_1_1"]
 ,"merco","Concessionnaire Mercenaire"],0,false,false,"",'player getVariable["merco_rank",0] > 0'];
 
 _this addAction["<t color='#FF9900'>Garage</t>",

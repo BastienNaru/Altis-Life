@@ -35178,7 +35178,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.60000002;
-			init="_nul=this execVM ""pnj\weapon_shop_merco2.sqf"";";
+			init="_nul=this execVM ""pnj\weapon_shop_merco.sqf"";";
 		};
 		class Item3348
 		{
@@ -35199,7 +35199,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.60000002;
-			init="_nul=this execVM ""pnj\car_shop_merco2.sqf"";";
+			init="_nul=this execVM ""pnj\car_shop_merco02.sqf"";";
 		};
 		class Item3350
 		{

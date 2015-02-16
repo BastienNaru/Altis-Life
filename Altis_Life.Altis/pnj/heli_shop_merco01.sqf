@@ -5,7 +5,7 @@ removeallWeapons _this;
 _this enableSimulation false; 
 _this allowDamage false; 
 _this addAction["<t color='#AAF200'>Héliport mercenaire</t>",
-life_fnc_vehicleShopMenu,["merco_air",civilian,["air_merco_1"]
+life_fnc_vehicleShopMenu,["merco_air",east,["air_merco_1"]
 ,"civ","Héliport mercenaire"],0,false,false,"",'player getVariable["merco_rank",0] > 0'];
 
 _this addAction["<t color='#FF9900'>Garage</t>",

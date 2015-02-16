@@ -80,7 +80,7 @@ switch(playerSide) do {
 		
 		if(license_civ_medecin) then {
 			[_vehicle,"med_offroad",true] spawn life_fnc_vehicleAnimate;
-		}
+		};
 	};
 	
 	case independent: {

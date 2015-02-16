@@ -301,8 +301,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Tu es Policier, tu n'as rien a faire avec moi"};
-			case (!license_civ_rebel): {"Tu n'as pas d'entrainement Rebelle!"};
+			case (playerSide != east): {"Seuls les mercenaires sont autorisés à commander des armes!"};
 			case (__GETC__(life_donator) >= 1):
 			{
 				["Armes Rebelle & Donateur",
@@ -406,8 +405,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Tu es Policier, tu n'as rien a faire avec moi"};
-			case (!license_civ_mercenaire): {"Tu n'es pas un combattant mercenaire!"};
+			case (playerSide != east): {"Seuls les mercenaires sont autorisés à commander des armes!"};
 			case (__GETC__(life_donator) >= 1):
 			{
 				["Armes Mercenaire & Donateur",
