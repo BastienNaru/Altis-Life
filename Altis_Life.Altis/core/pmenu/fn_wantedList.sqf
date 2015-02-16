@@ -26,9 +26,9 @@ _units = [];
 	};
 } foreach _info;
 
-ctrlSetText[2404,"Connection Established"];
+ctrlSetText[2404,"Connexion établie"];
 
 if(((lbSize _list)-1) == -1) then
 {
-	_list lbAdd "No criminals";
+	_list lbAdd "Aucun criminel recensé";
 };
