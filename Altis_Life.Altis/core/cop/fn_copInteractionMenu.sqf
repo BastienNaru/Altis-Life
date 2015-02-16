@@ -123,7 +123,7 @@ if (count weapons life_pInact_curTarget == 0) then {
 _Btn9 ctrlSetText "Saisir cagoule";
 _Btn9 buttonSetAction "[] call life_fnc_takeCagoule; closeDialog 0;";
 
-if (headgear life_pInact_curTarget == "H_Shemag_olive"
+if (!(headgear life_pInact_curTarget == "H_Shemag_olive"
 	|| headgear life_pInact_curTarget == "H_ShemagOpen_khk"
 	|| headgear life_pInact_curTarget == "H_Shemag_tan"
 	|| headgear life_pInact_curTarget == "H_ShemagOpen_tan"
@@ -132,7 +132,7 @@ if (headgear life_pInact_curTarget == "H_Shemag_olive"
 	|| goggles life_pInact_curTarget == "G_Balaclava_oli"
 	|| goggles life_pInact_curTarget == "G_Bandanna_aviator"
 	|| goggles life_pInact_curTarget == "G_Bandanna_sport"
-	|| goggles life_pInact_curTarget == "G_Bandanna_shades") then {
+	|| goggles life_pInact_curTarget == "G_Bandanna_shades")) then {
 	_Btn9 ctrlEnable false;
 };
 
