@@ -317,6 +317,7 @@ class Life_Client_Core
 	{
 		file = "core\merco";
 		class mercoLoadout {};
+		class mercoMarkers {};
 	};
 
 	class Gangs

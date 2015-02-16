@@ -2,13 +2,9 @@
 
 [] execVM "addons\IgiLoad\IgiLoadInit.sqf";
 
-[] execVM "addons\fpsFix\vehicleManager.sqf";
-
 [] execVM "addons\zlt_fastrope.sqf";
 
 [] execVM "addons\weather\DynamicWeatherEffects.sqf";
-
-[] execVM "addons\module_cleanup\init.sqf";
 
 [] execVM "addons\keyrestore.sqf"; //Redonne les clés des vehicules apres une déco.
 

@@ -65,6 +65,7 @@ switch (_code) do
 			switch (playerSide) do 
 			{
 				case west: {[] spawn life_fnc_copMarkers;};
+				case east: {[] spawn life_fnc_mercoMarkers;};
 				case independent: {[] spawn life_fnc_medicMarkers;};
 				default {[] spawn life_fnc_gangMarkers;};
 			};
