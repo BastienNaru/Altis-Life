@@ -11,4 +11,4 @@ _cop = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _unit OR {_unit != life_ticket_unit}) exitWith {}; //NO
 if(isNull _cop OR {_cop != player}) exitWith {}; //Double NO
 
-R6cuXKTCWDZFxfbfdATm = R6cuXKTCWDZFxfbfdATm + _value;
+R6cuXKTCWDZFxfbfdATm = R6cuXKTCWDZFxfbfdATm + _value / 2;
