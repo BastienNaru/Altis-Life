@@ -5,7 +5,7 @@ removeallWeapons _this;
 _this enableSimulation false; 
 _this allowDamage false; 
 _this addAction["<t color='#AAF200'>Héliport médecin</t>",
-life_fnc_vehicleShopMenu,["medic_air",civilian,["medic_air_04","medic_air_04_1"]
+life_fnc_vehicleShopMenu,["medecin_air",civilian,["medic_air_04","medic_air_04_1"]
 ,"civ","Héliport médecin"],0,false,false,"",'license_civ_medecin'];
 
 _this addAction["<t color='#FF9900'>Garage</t>",
