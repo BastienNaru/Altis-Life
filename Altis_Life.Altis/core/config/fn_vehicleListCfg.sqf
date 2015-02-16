@@ -22,36 +22,13 @@ switch (_shop) do
 // ********************
 	case "kart_shop":
 	{
-		if(__GETC__(life_donator) == 0) then
-		{
-			_return =
-			[
-			["C_Kart_01_Blu_F",15000],
-			["C_Kart_01_Fuel_F",15000],
-			["C_Kart_01_Red_F",15000],
-			["C_Kart_01_Vrana_F",15000]
-			];
-		};			
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return =
-			[
-			["C_Kart_01_Blu_F",12750],
-			["C_Kart_01_Fuel_F",12750],
-			["C_Kart_01_Red_F",12750],
-			["C_Kart_01_Vrana_F",12750]
-			];
-		};			
-		if(__GETC__(life_donator) > 1) then
-		{
-			_return =
-			[
-			["C_Kart_01_Blu_F",10500],
-			["C_Kart_01_Fuel_F",10500],
-			["C_Kart_01_Red_F",10500],
-			["C_Kart_01_Vrana_F",10500]
-			];
-		};					
+		_return =
+		[
+			["C_Kart_01_Blu_F",50000],
+			["C_Kart_01_Fuel_F",50000],
+			["C_Kart_01_Red_F",50000],
+			["C_Kart_01_Vrana_F",50000]
+		];				
 	};	
 // ********************
 // ******* CARS *******
