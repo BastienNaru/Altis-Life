@@ -17,9 +17,9 @@ switch (_side) do
 	case west:
 	{
 		_return = [
-			["cop_spawn_1","Commissariat Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_2","Commissariat Pyrgos","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
-			["cop_spawn_3","Commissariat Athira","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_1","Comm. Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_2","Comm. Pyrgos","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+			["cop_spawn_3","Comm. Athira","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_4","Base Aérienne","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
 			["cop_spawn_5","Héliport","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
