@@ -43,7 +43,7 @@ if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) the
 			};
 			
 			if((_sfx)) then {
-				_vehicle say3D "repair";
+				_veh say3D "repair";
 				_sfx = false;
 			};
 				
