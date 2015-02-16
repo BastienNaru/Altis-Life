@@ -10,7 +10,7 @@ player addRating 99999999;
 waitUntil {!(isNull (findDisplay 46))};
 
 if ((__GETC__(life_mercoLevel)) == 0) exitWith {
-	["Notwhitelisted",FALSE,TRUE] call BIS_fnc_endMission;
+	["NotWhitelisted",false,true] call BIS_fnc_endMission;
 	sleep 35;
 };
 
@@ -21,9 +21,9 @@ if ((str(player) in ["merco_16","merco_17","merco_18","merco_19","merco_20"])) e
 	};
 };
 
-if ((str(player) == "merco_01") && !(__GETC__(life_mercoLevel)) >= 11) exitWith {
-		["NotWhitelisted",false,true] call BIS_fnc_endMission;
-		sleep 35;
+if ((str(player) in ["merco_01"]) && (__GETC__(life_mercoLevel) < 11)) exitWith {
+	["NotWhitelisted",false,true] call BIS_fnc_endMission;
+	sleep 35;
 };
 
 player setVariable["merco_rank",(__GETC__(life_mercoLevel)),true];

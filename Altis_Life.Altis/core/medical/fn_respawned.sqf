@@ -35,6 +35,9 @@ switch(playerSide) do
 	case independent: {
 		_handle = [] spawn life_fnc_medicLoadout;
 	};
+	case east: {
+		_handle = [] spawn life_fnc_mercoLoadout;
+	};
 	waitUntil {scriptDone _handle};
 };
 
