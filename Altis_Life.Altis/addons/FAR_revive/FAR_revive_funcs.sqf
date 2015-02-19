@@ -286,7 +286,7 @@ call mf_compile;
 ////////////////////////////////////////////////
 FAR_IsFriendlyMedic =
 {
-	IS_MEDIC(_this) && !UNCONSCIOUS(_this) && side _this == playerSide && {side _this != civilian || _this getVariable["medecin",false]}}
+	IS_MEDIC(_this) && !UNCONSCIOUS(_this) && side _this == playerSide && {side _this != civilian || _this getVariable["medecin",false]}
 }
 call mf_compile;
 
