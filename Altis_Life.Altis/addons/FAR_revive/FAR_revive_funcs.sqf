@@ -226,7 +226,7 @@ FAR_public_EH =
 			}
 			else
 			{
-				systemChat format ["%1 a blessé %2", toString _unitName, toString _killerName];
+				systemChat format ["%1 a blessé %2", toString _killerName, toString _unitName];
 			};
 		};
 	};
@@ -286,7 +286,7 @@ call mf_compile;
 ////////////////////////////////////////////////
 FAR_IsFriendlyMedic =
 {
-	IS_MEDIC(_this) && !UNCONSCIOUS(_this) && side _this == playerSide && {playerSide in [BLUFOR,OPFOR] || group _this == group player}
+	IS_MEDIC(_this) && !UNCONSCIOUS(_this) && side _this == playerSide && {side _this != civilian || _this getVariable["medecin",false]}}
 }
 call mf_compile;
 
@@ -295,7 +295,7 @@ FAR_CheckFriendlies =
 	private ["_units", "_msg", "_medics", "_dir", "_cardinal"];
 
 	_units = player nearEntities ["AllVehicles", 1000];
-	_msg = "<t underline='true'>Véhicules à proximité</t>";
+	_msg = "<t underline='true'>Médecins à proximité</t>";
 	_medics = "";
 
 	{

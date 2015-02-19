@@ -316,10 +316,10 @@ while {UNCONSCIOUS(_unit) && diag_tickTime < _bleedOut} do
 	{
 		if (_dmg >= 0.5 && isNil "_treatedBy") then
 		{
-			_time = _bleedOut - diag_tickTime;
+			_time = ceil(_bleedOut - diag_tickTime);
 
 			_progBar progressSetPosition ((_bleedOut - diag_tickTime) / FAR_BleedOut);
-			_progText ctrlSetText format ["Mort dans %1 secondes", ceil _time];
+			_progText ctrlSetText format ["Mort dans %1 secondes", _time];
 
 			//(FAR_cutTextLayer + 1) cutText [format ["\n\nBleedout in %1\n\n%2", _time, call FAR_CheckFriendlies], "PLAIN DOWN"];
 		};
