@@ -37241,7 +37241,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=388;
+		items=389;
 		class Item0
 		{
 			position[]={8449.9922,84.231361,25238.275};
@@ -40369,6 +40369,13 @@ class Mission
 			name="heli_garage_base_lameute";
 			type="Empty";
 			angle=107.195;
+		};
+		class Item388
+		{
+			position[]={4902.3457,339.87317,21963.59};
+			name="base_spawn_lameute";
+			type="Empty";
+			angle=25;
 		};
 	};
 	class Sensors
