@@ -80,7 +80,7 @@ class controls {
 		
 		class SendButtonKey : Life_RscButtonMenu {
 			idc = 9005;
-			text = "Send";
+			text = "Envoyer";
 			onButtonClick = "[] call life_fnc_sendChannel; closeDialog 0;";
 			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);

@@ -233,6 +233,7 @@ class Life_Client_Core
 		class unlockCarSound {};
 		class updateClothing {};
 		class onPlayerDisconnect {};
+		class safeString {};
 	};
 
 	class Network

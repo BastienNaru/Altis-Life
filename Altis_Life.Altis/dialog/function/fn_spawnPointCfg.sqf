@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_spawnPointCfg.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -35,6 +36,10 @@ switch (_side) do
 	
 	case civilian:
 	{
+		if (grpPlayer getVariable ["gang_id", 0] == 371) then {
+			["base_spawn_lameute","Base de la Meute","\a3\ui_f\data\map\MapControl\rock_ca.paa"],
+		};
+		
 		if (license_civ_rebel) then {
 			_return = [
 				["reb_spawn_5","QG Rebelle Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -59,7 +64,7 @@ switch (_side) do
 			};
 		};
 		
-		if(count life_houses > 0) then {
+		if (count life_houses > 0) then {
 			{
 				_pos = call compile format["%1",_x select 0];
 				_house = nearestBuilding _pos;
