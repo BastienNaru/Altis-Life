@@ -460,7 +460,7 @@ switch (_shop) do
 	{
 		_return set[count _return,["C_Offroad_01_F",20000]];
 		_return set[count _return,["C_SUV_01_F",25000]];
-		_return set[count, _return, ["C_Hatchback_01_sport_F",40000]];
+		_return set[count _return, ["C_Hatchback_01_sport_F",40000]];
 		_return set[count _return, ["C_Van_01_box_F",100000]];
 		
 		/*if(license_civ_air) then
