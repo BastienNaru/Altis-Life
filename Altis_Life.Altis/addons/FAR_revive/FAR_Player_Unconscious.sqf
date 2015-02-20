@@ -359,7 +359,7 @@ if (alive _unit && !UNCONSCIOUS(_unit)) then // Player got revived
 
 	if (isPlayer _unit) then
 	{
-		[] spawn fn_savePlayerData;
+		[3] call SOCK_fnc_updatePartial;
 
 		// Unmute ACRE
 		_unit setVariable ["ace_sys_wounds_uncon", false];
