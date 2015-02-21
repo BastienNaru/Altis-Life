@@ -96,5 +96,4 @@ switch (_var) do
 	case "license_civ_medecin": {"Doctorat de Médecine"};
 	case "license_civ_depanneur": {"Diplôme de Dépanneur"};
 	case "license_civ_taxi": {"Licence de Taxi"};
-	case "license_civ_mercenaire": {"Combattant Mercenaire"};
 };

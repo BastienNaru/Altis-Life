@@ -5,7 +5,7 @@ removeallWeapons _this;
 _this enableSimulation false; 
 _this allowDamage false; 
 _this addAction["<t color='#AAF200'>Héliport Rebelle</t>",
-life_fnc_vehicleShopMenu,["civ_air",civilian,["air_reb_5"]
+life_fnc_vehicleShopMenu,["reb_air",civilian,["air_reb_5"]
 ,"civ","Héliport Rebelle"],0,false,false,"",'license_civ_rebel'];
 
 _this addAction["<t color='#FF9900'>Garage</t>",

@@ -234,6 +234,7 @@ class Life_Client_Core
 		class updateClothing {};
 		class onPlayerDisconnect {};
 		class safeString {};
+		class fatigueReset {};
 	};
 
 	class Network
@@ -378,7 +379,6 @@ class Life_Client_Core
 		class storageBox {};
 		class effetDrogue {};
 		class tracker {};
-		class trackerMarkers {};
 		class bouchonsOreille {};
 	};
 

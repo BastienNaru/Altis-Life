@@ -1,11 +1,9 @@
 /* 
 	GarageLucel
-	_null=this execVM "pnj\blackmarket_sell03.sqf";
+	_null=this execVM "pnj\garage_kalochori.sqf";
 */
-removeallweapons _this;
 _this enableSimulation false; 
 _this allowDamage false; 
-_this addAction["<t color='#FF0000'>Vente de véhicule volé</t>",life_fnc_chopShopMenu,"chop_shop_2",0,false,false];
 _this addAction["<t color='#FF9900'>Rentrer au garage</t>",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];
 
 _this addAction["<t color='#FF9900'>Garage</t>",
@@ -13,5 +11,5 @@ _this addAction["<t color='#FF9900'>Garage</t>",
 life_garage_type = "Car";
 createDialog "Life_impound_menu";
 disableSerialization;
-ctrlSetText[2802,"Recherches des véhicules...."];
-life_garage_sp = "chop_shop_2";  }];
+ctrlSetText[2802,"Recherches des v�hicules...."];
+life_garage_sp = "garage_base_lamafia";  }];

@@ -49,6 +49,8 @@ __CONST__(life_gangUpgradeMultipler,3); //BLAH
 
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
+
+life_fatigue = 0.8; //Set the max fatigue limit (80%)
 /*
 *****************************
 ****** Weight Variables *****
@@ -205,8 +207,7 @@ life_licenses =
 	["license_civ_meth","civ"],
 	["license_civ_medecin","civ"],
 	["license_civ_depanneur","civ"],
-	["license_civ_taxi","civ"],
-	["license_civ_mercenaire","civ"]
+	["license_civ_taxi","civ"]
 ];
 
 //Setup License Variables
@@ -373,6 +374,44 @@ life_garage_prices =
 	["B_MRAP_01_F",7500]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
+
+/*
+	Plus petit prix disponible pour chaque véhicule
+	(utilisé pour calculer le prix de sortie, de vente, d'assurance, de location et de caution)
+*/
+life_vehicles_price =
+[
+	["C_Kart_01_Blu_F",50000],
+	["C_Kart_01_Fuel_F",50000],
+	["C_Kart_01_Red_F",50000],
+	["C_Kart_01_Vrana_F",50000],
+	["B_Quadbike_01_F",50000],
+	["C_Hatchback_01_F",21000],
+	["C_Hatchback_01_sport_F",149000],
+	["C_SUV_01_F",38000],
+	["C_Offroad_01_F",45000],
+	["C_Van_01_transport_F",90000],
+	["C_Van_01_box_F",121000],
+	["I_Truck_02_transport_F",170000],
+	["I_Truck_02_covered_F",220000],
+	["B_Truck_01_transport_F",530000],
+	["B_Truck_01_box_F",850000],
+	["O_Truck_03_device_F",650000],
+	["I_Truck_02_box_F",50000],
+	["B_Heli_Light_01_F",300000],
+	["C_Heli_Light_01_civil_F",250000],
+	["O_Heli_Light_02_unarmed_F",450000],
+	["C_Rubberboat",10000],
+	["I_G_Boat_Transport_01_F",15000],
+	["C_Boat_Civil_01_F",44000],
+	["O_MRAP_02_F",435000],
+	["B_G_Offroad_01_armed_F",198000],
+	["I_Heli_light_03_unarmed_F",1650000],
+	["O_Heli_Transport_04_covered_F",1100000],
+	["O_Heli_Attack_02_F",3300000],
+	["I_MRAP_03_F",116000]
+];
+__CONST__(life_vehicles_price,life_vehicles_price);
 
 life_garage_sell =
 [

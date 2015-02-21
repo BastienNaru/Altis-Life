@@ -37,6 +37,7 @@ if(_veh == "B_Heli_Transport_01_F") then
 if(_veh == "B_Heli_Light_01_armed_F") then 
 {
 	_vehicle removeMagazinesTurret ["24Rnd_missiles",[-1]];
+	_vehicle removeWeaponTurret["missiles_DAR", [-1]];
 };
 
 if (_veh == "B_Heli_Attack_01_F") then 
@@ -55,6 +56,17 @@ if (_veh == "O_Heli_Attack_02_F") then
 	_vehicle removeMagazinesTurret ["38Rnd_80mm_rockets",[0]];
 };
 
+if (_veh == "I_Plane_Fighter_03_AA_F") then
+{
+	_vehicle removeMagazinesTurret ["300Rnd_20mm_shells",[-1]];
+	_vehicle removeMagazinesTurret ["2Rnd_AAA_missiles",[-1]];
+	_vehicle removeMagazinesTurret ["4Rnd_GAA_missiles",[-1]];
+	_vehicle removeMagazinesTurret ["120Rnd_CMFlare_Chaff_Magazine",[-1]];
+	_vehicle removeWeaponTurret["Twin_Cannon_20mm", [-1]];
+	_vehicle removeWeaponTurret["missiles_Zephyr", [-1]];
+	_vehicle removeWeaponTurret["missiles_ASRAAM", [-1]];
+	_vehicle removeWeaponTurret["CMFlareLauncher", [-1]];
+};
 
 clearWeaponCargoGlobal _vehicle;
 clearMagazineCargoGlobal _vehicle;

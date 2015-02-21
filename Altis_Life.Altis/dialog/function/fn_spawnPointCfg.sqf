@@ -36,10 +36,6 @@ switch (_side) do
 	
 	case civilian:
 	{
-		if (grpPlayer getVariable ["gang_id", 0] == 371) then {
-			["base_spawn_lameute","Base de la Meute","\a3\ui_f\data\map\MapControl\rock_ca.paa"],
-		};
-		
 		if (license_civ_rebel) then {
 			_return = [
 				["reb_spawn_5","QG Rebelle Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -62,6 +58,14 @@ switch (_side) do
 				_return pushBack ["medic_spawn_2","Poste de secours de l'aéroport","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];
 				_return pushBack ["medic_spawn_3","Poste de secours de Pyrgos","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];
 			};
+		};
+		
+		if (grpPlayer getVariable ["gang_id", 0] == 371) then {
+			_return = [["base_spawn_lameute","Base de la Meute","\a3\ui_f\data\map\MapControl\rock_ca.paa"]] + _return;
+		};
+		
+		if (grpPlayer getVariable ["gang_id", 0] == 369) then {
+			_return = [["base_spawn_lamafia","Base de la Mafia","\a3\ui_f\data\map\MapControl\rock_ca.paa"]] + _return;
 		};
 		
 		if (count life_houses > 0) then {

@@ -19,12 +19,14 @@ while {esp_enabled} do
 		
 		_marker = createMarkerLocal [format["%1_espmarker",_x],visiblePosition _x];
 		
-		if (side _x == west) then {
-			_marker setMarkerColorLocal "ColorBLUFOR";
-		}
-		else {
-			_marker setMarkerColorLocal "ColorCivilian";
+		_color = switch (side _x) do {
+			case west: "ColorBLUFOR";
+			case east: "ColorOPFOR";
+			case civilian: "ColorCivilian";
+			default "ColorUNKNOWN";
 		};
+		
+		_marker setMarkerColorLocal _color;
 		_marker setMarkerTypeLocal "Mil_dot";
 		_marker setMarkerTextLocal format["%1", name _x];
 

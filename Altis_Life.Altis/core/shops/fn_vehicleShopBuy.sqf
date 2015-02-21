@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_vehicleShopBuy.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -11,7 +12,12 @@ if((lbCurSel 2302) == -1) exitWith {hint localize "STR_Shop_Veh_DidntPick"};
 _className = lbData[2302,(lbCurSel 2302)];
 _vIndex = lbValue[2302,(lbCurSel 2302)];
 _vehicleList = [life_veh_shop select 0] call life_fnc_vehicleListCfg; _basePrice = (_vehicleList select _vIndex) select 1;
- if(_mode) then {_basePrice = round(_basePrice * 1.1)};
+ if(!_mode) then {_basePrice = round(_basePrice * 0.75)};
+ 
+if (__GETC__(life_donator) >= 1) then {
+	_basePrice = round(_basePrice * (1 - 0.05 * __GETC__(life_donator)));
+};
+
 _colorIndex = lbValue[2304,(lbCurSel 2304)];
 
 //Series of checks (YAY!)

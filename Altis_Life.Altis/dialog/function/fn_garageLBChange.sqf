@@ -7,7 +7,7 @@
 	Can't be bothered to answer it.. Already deleted it by accident..
 */
 disableSerialization;
-private["_control","_index","_className","_dataArr","_vehicleColor","_vehicleInfo","_trunkSpace","_sellPrice","_retrievePrice","_hasInsurance","_insurance"];
+private["_control","_index","_className","_dataArr","_vehicleColor","_vehicleInfo","_trunkSpace","_basePrice","_sellPrice","_retrievePrice","_hasInsurance","_insurance"];
 _control = _this select 0;
 _index = _this select 1;
 
@@ -19,12 +19,16 @@ _hasInsurance =  (_dataArr select 2) - 1;
 _vehicleInfo = [_className] call life_fnc_fetchVehInfo;
 _trunkSpace = [_className] call life_fnc_vehicleWeightCfg;
 
-_retrievePrice = [_className,__GETC__(life_garage_prices)] call TON_fnc_index;
-_sellPrice = [_className,__GETC__(life_garage_sell)] call TON_fnc_index;
-_retrievePrice = if(_retrievePrice == -1) then {1000} else {(__GETC__(life_garage_prices) select _retrievePrice) select 1;};
-_sellPrice = if(_sellPrice == -1) then {1000} else {(__GETC__(life_garage_sell) select _sellPrice) select 1;};
+_basePrice = [_className,__GETC__(life_vehicles_price)] call TON_fnc_index;
+_basePrice = if(_basePrice == -1) then {10000} else {(__GETC__(life_vehicles_price) select _basePrice) select 1;};
+
+_sellPrice = round(_basePrice * 0.5);
+
 if(playerSide == west) then {
 	_retrievePrice = 1000
+}
+else {
+	_retrievePrice = round(_basePrice * 0.1);
 };
 
 if (_hasInsurance > 0) then {

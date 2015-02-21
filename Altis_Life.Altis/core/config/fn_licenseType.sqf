@@ -44,7 +44,6 @@ switch (_mode) do
 			case "medecin": {_var = "license_civ_medecin"};
 			case "depanneur": {_var = "license_civ_depanneur"};
 			case "taxi": {_var = "license_civ_taxi"};
-			case "mercenaire": {_var = "license_civ_mercenaire"};
 			default {_var = ""};
 		};
 	};
@@ -81,7 +80,6 @@ switch (_mode) do
 			case "license_civ_medecin": {_var = "medecin"};
 			case "license_civ_depanneur": {_var = "depanneur"};
 			case "license_civ_taxi": {_var = "taxi"};
-			case "license_civ_mercenaire": {_var = "mercenaire"};
 			default {_var = ""};
 		};
 	};

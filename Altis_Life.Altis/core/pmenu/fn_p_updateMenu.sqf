@@ -83,7 +83,7 @@ _near_units = [];
 } foreach _near_units;
 
 _mstatus ctrlSetStructuredText parseText format["<img size='1.3' image='icons\bank.paa'/> <t size='0.8px'>$%1</t><br/><img size='1.2' image='icons\money.paa'/> <t size='0.8'>$%2</t>",[R6cuXKTCWDZFxfbfdATm] call life_fnc_numberText,[hBf0MznDHQm7X5DFFSmy] call life_fnc_numberText];
-ctrlSetText[2009,format["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
+ctrlSetText[2009,format["Poids: %1 / %2", life_carryWeight, life_maxWeight]];
 {
 	_str = [_x] call life_fnc_varToStr;
 	_shrt = [_x,1] call life_fnc_varHandle;
@@ -108,7 +108,7 @@ ctrlSetText[2009,format["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
 
 if(_struct == "") then
 {
-	_struct = "Aucune license";
+	_struct = "Aucune licence";
 };
 
 _lic ctrlSetStructuredText parseText format["
