@@ -27,7 +27,7 @@ switch (life_veh_shop select 0) do
 	case "civ_Pegasus_1":	{_ret = license_civ_truck;};
 	case "civ_servt_1": {_ret = license_civ_driver;};
 	case "reb_v": {_ret = license_civ_rebel;};
-	case "air_reb": {_ret = license_civ_air;};
+	case "reb_air": {_ret = license_civ_rebel;};
 	case "cop_car": {_ret = true;};
 	case "fed_car": {_ret = true;};
 	case "fed_air": {_ret = true;};

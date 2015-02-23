@@ -20,7 +20,7 @@ switch (_filter) do
 		[
 			["U_B_CombatUniform_mcam_worn","Tenue de mercenaire",550],
 			["U_B_survival_uniform",nil,550],
-			["U_I_GhillieSuit",nil,50000]
+			["U_I_GhillieSuit",nil,15000]
 		];
 	};
 	
@@ -55,8 +55,8 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["V_I_G_resistanceLeader_F",nil,12500],
-			["V_RebreatherIA",nil,7500]
+			["V_I_G_resistanceLeader_F",nil,3500],
+			["V_RebreatherIA",nil,2500]
 		];
 	};
 	

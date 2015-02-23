@@ -301,7 +301,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != east): {"Seuls les mercenaires sont autorisés à commander des armes!"};
+			case (playerSide != civilian || !license_civ_rebel): {"Seuls les rebelles sont autorisés à commander des armes!"};
 			case (__GETC__(life_donator) >= 1):
 			{
 				["Armes Rebelle & Donateur",
@@ -711,7 +711,6 @@ switch(_shop) do
 					["ToolKit",nil,250],
 					["FirstAidKit",nil,1500],
 					["Medikit",nil,15000],
-					["NVGoggles",nil,10000],
 					["Chemlight_red",nil,300],
 					["Chemlight_yellow",nil,300],
 					["Chemlight_green",nil,300],
@@ -769,7 +768,7 @@ switch(_shop) do
 		{
 			case (__GETC__(life_donator) == 0):
 			{
-				["Magasin médecin",
+				["Magasin général",
 					[
 					["Binocular",nil,150],
 					["ItemMap",nil,50],
@@ -789,7 +788,7 @@ switch(_shop) do
 
 			case (__GETC__(life_donator) == 1):
 			{
-				["Magasin médecin",
+				["Magasin général",
 					[
 					["Binocular",nil,125],
 					["ItemMap",nil,40],
@@ -809,7 +808,7 @@ switch(_shop) do
 
 			case (__GETC__(life_donator) > 1):
 			{
-				["Magasin médecin",
+				["Magasin général",
 					[
 					["Binocular",nil,100],
 					["ItemMap",nil,35],
@@ -827,6 +826,81 @@ switch(_shop) do
 				];
 			};			
 		
+		};
+	};
+	
+	case "mercostore":
+	{
+		switch(true) do
+		{
+			case (__GETC__(life_donator) == 0):
+			{
+				["Divers",
+					[
+						["ItemMap",nil,50],
+						["ItemGPS",nil,1250],
+						["ItemRadio",nil,200],
+						["Binocular",nil,150],
+						["NVGoggles",nil,2500],
+						["Rangefinder",nil,3400],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["MiniGrenade","Grenade aveuglante",500],
+						["SmokeShellBlue","Gaz lacrymogene",500],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["Medikit",nil,2000]
+					]
+				];
+			};		
+
+			case (__GETC__(life_donator) == 1):
+			{
+				["Divers",
+					[
+						["ItemMap",nil,50],
+						["ItemGPS",nil,1250],
+						["ItemRadio",nil,200],
+						["Binocular",nil,150],
+						["NVGoggles",nil,2500],
+						["Rangefinder",nil,3400],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["MiniGrenade","Grenade aveuglante",500],
+						["SmokeShellBlue","Gaz lacrymogene",500],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["Medikit",nil,2000]
+					]
+				];
+			};			
+
+			case (__GETC__(life_donator) > 1):
+			{
+				["Divers",
+					[
+						["ItemMap",nil,50],
+						["ItemGPS",nil,1250],
+						["ItemRadio",nil,200],
+						["Binocular",nil,150],
+						["NVGoggles",nil,2500],
+						["Rangefinder",nil,3400],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["MiniGrenade","Grenade aveuglante",500],
+						["SmokeShellBlue","Gaz lacrymogene",500],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["Medikit",nil,2000]
+					]
+				];
+			};
 		};
 	};
 };
