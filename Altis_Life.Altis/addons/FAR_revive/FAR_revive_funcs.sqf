@@ -10,10 +10,11 @@ FAR_Player_Actions =
 {
 	if (alive player && player isKindOf "Man") then
 	{
+		{player addAction _x;} forEach
 		[
-			["<t color='#00C900'>" + "Réanimer" + "</t>", "addons\FAR_revive\FAR_handleAction.sqf", ["action_revive"], 100, true, true, "", FAR_Check_Revive],
-			["<t color='#00C900'>" + "Morphine" + "</t>", "addons\FAR_revive\FAR_handleAction.sqf", ["action_stabilize"], 99, true, true, "", FAR_Check_Stabilize],
-			["<t color='#C9C900'>" + "Déplacer le corps" + "</t>", "addons\FAR_revive\FAR_handleAction.sqf", ["action_drag"], 98, true, true, "", FAR_Check_Dragging]
+			["<t color='#00C900'>" + "Réanimer" + "</t>", "addons\FAR_revive\FAR_handleAction.sqf", ["action_revive"], 100, true, true, "", "call FAR_Check_Revive"],
+			["<t color='#00C900'>" + "Morphine" + "</t>", "addons\FAR_revive\FAR_handleAction.sqf", ["action_stabilize"], 99, true, true, "", "call FAR_Check_Stabilize"],
+			["<t color='#C9C900'>" + "Déplacer le corps" + "</t>", "addons\FAR_revive\FAR_handleAction.sqf", ["action_drag"], 98, true, true, "", "call FAR_Check_Dragging"]
 		];
 	};
 }
