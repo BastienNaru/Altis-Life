@@ -23,7 +23,7 @@ if(_hasInsurance > 0) exitWith {hint "Ce véhicule est déjà assuré!"};
 _price = [_vehicle,__GETC__(life_vehicles_price)] call TON_fnc_index;
 
 if(_price == -1) then {
-	_price = 5000;
+	_price = 100;
 }
 else {
 	_price = round(((__GETC__(life_vehicles_price) select _price) select 1) * 0.25);
