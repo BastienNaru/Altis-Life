@@ -9,7 +9,7 @@ private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zo
 _resourceZones = ["apple_1","apple_2","apple_3","apple_4","apple_5","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","cocaine_2","weed_1","weed_2","meth_2"];
 _zone = "";
 
-if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
+if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
 
 //Find out what zone we're near
 {
@@ -18,7 +18,7 @@ if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
 
 if(_zone == "") exitWith {
 	/*hint localize "STR_NOTF_notNearResource";*/
-	life_action_inUse = false;
+	life_action_gathering = false;
 	[] spawn life_fnc_pickAxeUse;
 };
 
@@ -37,7 +37,7 @@ if(vehicle player != player) exitWith {/*hint localize "STR_NOTF_GatherVeh";*/};
 
 _diff = [_gather,_val,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff == 0) exitWith {hint localize "STR_NOTF_InvFull"};
-life_action_inUse = true;
+life_action_gathering = true;
 for "_i" from 0 to 2 do
 {
 	player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
@@ -51,4 +51,4 @@ if(([true,_gather,_diff] call life_fnc_handleInv)) then
 	titleText[format[localize "STR_NOTF_Gather_Success",_itemName,_diff],"PLAIN"];
 };
 
-life_action_inUse = false;
+life_action_gathering = false;
