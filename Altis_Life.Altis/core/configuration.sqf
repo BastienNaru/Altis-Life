@@ -30,9 +30,10 @@ life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
 life_sync_time = time;
+life_action_gathering = false;
 
 //Persistent Saving
-__CONST__(life_save_civ,TRUE); //Save weapons for civs?
+// Par défaut, je sauvegarde tout niveau armes et tout
 __CONST__(life_save_yinv,TRUE); //Save Y-Inventory for players?
 
 //Revive constant variables.
@@ -116,6 +117,12 @@ switch (playerSide) do
 */
 life_vShop_rentalOnly = [];
 __CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
+
+
+life_vShop_rentalOnly = [
+	"I_Plane_Fighter_03_AA_F"
+];
+__CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly);
 
 life_inv_items = 
 [
@@ -344,37 +351,6 @@ life_weapon_shop_array =
 ];
 __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 
-life_garage_prices =
-[
-	["B_QuadBike_01_F",550],
-	["C_Hatchback_01_F",1500],
-	["C_Offroad_01_F", 2500],
-	["B_G_Offroad_01_F",3500],
-	["C_SUV_01_F",5250],
-	["C_Van_01_transport_F",5000],
-	["C_Hatchback_01_sport_F",1500],
-	["C_Van_01_fuel_F",4500],
-	["I_Heli_Transport_02_F",30000],
-	["C_Van_01_box_F",7500],
-	["I_Truck_02_transport_F",12000],
-	["I_Truck_02_covered_F",14500],
-	["B_Truck_01_transport_F",25650],
-	["B_Truck_01_box_F", 35000],
-	["O_MRAP_02_F",45000],
-	["B_Heli_Light_01_F",45000],
-	["O_Heli_Light_02_unarmed_F",65000],
-	["B_Heli_Attack_01_F",90000],
-	["O_Heli_Attack_02_F",110000],
-	["C_Rubberboat",400],
-	["C_Boat_Civil_01_F",4500],
-	["B_Boat_Transport_01_F",450],
-	["C_Boat_Civil_01_police_F",3500],
-	["B_Boat_Armed_01_minigun_F",16500],
-	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",7500]
-];
-__CONST__(life_garage_prices,life_garage_prices);
-
 /*
 	Plus petit prix disponible pour chaque véhicule
 	(utilisé pour calculer le prix de sortie, de vente, d'assurance, de location et de caution)
@@ -387,7 +363,7 @@ life_vehicles_price =
 	["C_Kart_01_Vrana_F",50000],
 	["B_Quadbike_01_F",50000],
 	["C_Hatchback_01_F",21000],
-	["C_Hatchback_01_sport_F",149000],
+	["C_Hatchback_01_sport_F",50000],
 	["C_SUV_01_F",38000],
 	["C_Offroad_01_F",45000],
 	["C_Van_01_transport_F",90000],
@@ -409,68 +385,7 @@ life_vehicles_price =
 	["I_Heli_light_03_unarmed_F",1650000],
 	["O_Heli_Transport_04_covered_F",1100000],
 	["O_Heli_Attack_02_F",3300000],
-	["I_MRAP_03_F",116000]
+	["I_MRAP_03_F",116000],
+	["I_Plane_Fighter_03_AA_F",10000000]
 ];
 __CONST__(life_vehicles_price,life_vehicles_price);
-
-life_garage_sell =
-[
-	["B_Quadbike_01_F",950],
-	["C_Hatchback_01_F",4500],
-	["C_Offroad_01_F", 6500],
-	["B_G_Offroad_01_F",3500],
-	["C_SUV_01_F",15000],
-	["C_Van_01_transport_F",25000],
-	["C_Hatchback_01_sport_F",7500],
-	["C_Van_01_fuel_F",3850],
-	["I_Heli_Transport_02_F",125000],
-	["C_Van_01_box_F",35000],
-	["I_Truck_02_transport_F",49800],
-	["I_Truck_02_covered_F",62000],
-	["B_Truck_01_transport_F",135000],
-	["B_Truck_01_box_F", 150000],
-	["O_MRAP_02_F",65000],
-	["B_Heli_Light_01_F",57000],
-	["O_Heli_Light_02_unarmed_F",72500],
-	["B_Heli_Attack_01_F",100000],
-	["O_Heli_Attack_02_F",120000],
-	["C_Rubberboat",950],
-	["C_Boat_Civil_01_F",6800],
-	["B_Boat_Transport_01_F",850],
-	["C_Boat_Civil_01_police_F",4950],
-	["B_Boat_Armed_01_minigun_F",21000],
-	["B_SDV_01_F",45000],
-	["B_MRAP_01_F",10000]
-];
-__CONST__(life_garage_sell,life_garage_sell);
-
-life_garage_insurance =
-[
-	["B_Quadbike_01_F",950],
-	["C_Hatchback_01_F",4500],
-	["C_Offroad_01_F", 6500],
-	["B_G_Offroad_01_F",3500],
-	["C_SUV_01_F",15000],
-	["C_Van_01_transport_F",25000],
-	["C_Hatchback_01_sport_F",7500],
-	["C_Van_01_fuel_F",3850],
-	["I_Heli_Transport_02_F",125000],
-	["C_Van_01_box_F",35000],
-	["I_Truck_02_transport_F",49800],
-	["I_Truck_02_covered_F",62000],
-	["B_Truck_01_transport_F",135000],
-	["B_Truck_01_box_F", 150000],
-	["O_MRAP_02_F",65000],
-	["B_Heli_Light_01_F",57000],
-	["O_Heli_Light_02_unarmed_F",72500],
-	["B_Heli_Attack_01_F",100000],
-	["O_Heli_Attack_02_F",120000],
-	["C_Rubberboat",950],
-	["C_Boat_Civil_01_F",6800],
-	["B_Boat_Transport_01_F",850],
-	["C_Boat_Civil_01_police_F",4950],
-	["B_Boat_Armed_01_minigun_F",21000],
-	["B_SDV_01_F",45000],
-	["B_MRAP_01_F",10000]
-];
-__CONST__(life_garage_insurance,life_garage_insurance);

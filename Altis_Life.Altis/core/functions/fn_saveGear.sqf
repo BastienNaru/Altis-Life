@@ -20,15 +20,9 @@ _return pushBack backpack player;
 _return pushBack goggles player;
 _return pushBack headgear player;
 _return pushBack assignedITems player;
-if(playerSide == west || playerSide == civilian && {(call life_save_civ)}) then {
-    _return pushBack primaryWeapon player;
-    _return pushBack secondaryWeapon player;
-    _return pushBack handgunWeapon player;
-} else {
-    _return pushBack [];
-    _return pushBack [];
-    _return pushBack [];
-};
+_return pushBack primaryWeapon player;
+_return pushBack secondaryWeapon player;
+_return pushBack handgunWeapon player;
 
 _uItems = [];
 _uMags  = [];
