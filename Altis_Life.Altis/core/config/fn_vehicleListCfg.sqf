@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	File: fn_vehicleListCfg.sqf
-	Modif Nonoxs for GameWave
+	Author: Bryan "Tonic" Boardwine
 	
 	Description:
 	Vendeurs Véhicules
@@ -96,7 +96,7 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",450000]
 		];
 			
-		if(__GETC__(life_donator) >= 1)
+		if(__GETC__(life_donator) >= 1) then
 		{
 			_return pushBack ["I_Plane_Fighter_03_AA_F",10000000];	
 		};
@@ -131,7 +131,7 @@ switch (_shop) do
 			["O_MRAP_02_F",435000],
 			["B_G_Offroad_01_F",45000],
 			["B_G_Offroad_01_armed_F",585000]
-		];		
+		];
 	};
 
 	case "reb_air":
@@ -201,7 +201,7 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) > 3) then //lvl 4 - Adjudant/Adjudant-chef -
 		{
 			_return pushBack ["B_MRAP_01_F",150000];	
-		;
+		};
 
 		if(__GETC__(life_coplevel) > 4) then //lvl 5 - Major/Aspirant -
 		{

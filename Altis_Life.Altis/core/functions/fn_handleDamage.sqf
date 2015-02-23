@@ -5,13 +5,14 @@
 	Description:
 	Handles damage, specifically for handling the 'tazer' pistol and nothing else.
 */
-private["_unit","_damage","_source","_projectile","_part","_curWep","_isUnconscious"];
+private["_unit","_damage","_source","_projectile","_part","_curWep","_isTazer"];
 _unit = _this select 0;
 _part = _this select 1;
 _damage = _this select 2;
 _source = _this select 3;
 _projectile = _this select 4;
-_isUnconscious = _unit getVariable "FAR_isUnconscious";
+
+_isTazer = false;
 
 //Internal Debugging.
 if(!isNil "TON_Debug") then {
@@ -23,26 +24,26 @@ if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
 		if(_projectile in ["B_9x21_Ball"] && _curWep in ["hgun_P07_F","hgun_P07_snds_F"]) then {
-			//if(side _source == west && playerSide != west) then {
-				private["_distance","_isVehicle","_isQuad"];
-				_distance = 15;
-				_isVehicle = if(vehicle player != player) then {true} else {false};
-				_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
-				
-				_damage = 0;
-				if(_unit distance _source < _distance) then {
-					if(!life_istazed && !(_unit getVariable["restrained",false])) then {
-						if(_isVehicle) then {
-							if (_isQuad) then {
-								player action ["Eject",vehicle player];
-								[_unit,_source] spawn life_fnc_tazed;
-							};
-						} else {
+			_isTazer = true;
+			
+			private["_distance","_isVehicle","_isQuad"];
+			_distance = 15;
+			_isVehicle = if(vehicle player != player) then {true} else {false};
+			_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+			
+			_damage = 0;
+			if(_unit distance _source < _distance) then {
+				if(!life_istazed && !(_unit getVariable["restrained",false])) then {
+					if(_isVehicle) then {
+						if (_isQuad) then {
+							player action ["Eject",vehicle player];
 							[_unit,_source] spawn life_fnc_tazed;
 						};
+					} else {
+						[_unit,_source] spawn life_fnc_tazed;
 					};
 				};
-			//};
+			};
 			
 			//Temp fix for super tasers on cops.
 			/*if(playerSide == west && side _source == west) then {
@@ -51,6 +52,8 @@ if(!isNull _source) then {
 		};
 	};
 };
+
+if (_isTazer) exitWith {};
 
 // Flashbang
 if (_projectile in ["mini_Grenade"]) then {

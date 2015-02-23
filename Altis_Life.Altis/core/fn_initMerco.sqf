@@ -21,7 +21,7 @@ if ((str(player) in ["merco_16","merco_17","merco_18","merco_19","merco_20"])) e
 	};
 };
 
-if ((str(player) in ["merco_01"]) && (__GETC__(life_mercoLevel) < 11)) exitWith {
+if ((str(player) in ["merco_01"]) && (__GETC__(life_mercoLevel) < 10)) exitWith {
 	["NotWhitelisted",false,true] call BIS_fnc_endMission;
 	sleep 35;
 };

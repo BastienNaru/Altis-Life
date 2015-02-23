@@ -43,7 +43,7 @@ titleText["Vous avez un GPS tracker fixé à ce véhicule.","PLAIN"];
     _marker = createMarkerLocal [_markerName, visiblePosition _veh];
     _marker setMarkerColorLocal "ColorRed";
     _marker setMarkerTypeLocal "Mil_dot";
-    _marker setMarkerTextLocal "GPS Tracker "+getText(configFile >> "CfgVehicles" >> typeof _veh >> "displayName");
+    _marker setMarkerTextLocal "GPS Tracker " + getText(configFile >> "CfgVehicles" >> typeof _veh >> "displayName");
     _marker setMarkerPosLocal getPos _veh;
     while {true} do {
         if(not alive _veh) exitWith {deleteMarkerLocal _markerName;};
