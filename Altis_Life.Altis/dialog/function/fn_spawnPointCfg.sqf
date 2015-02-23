@@ -38,7 +38,7 @@ switch (_side) do
 	{
 		if (license_civ_rebel) then {
 			_return = [
-				["reb_spawn_5","QG Rebelle Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["reb_spawn_5","Camp Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["reb_spawn_1","Camp Katalaki","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["reb_spawn_2","Camp Frini","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["reb_spawn_3","Camp Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -61,11 +61,11 @@ switch (_side) do
 		};
 		
 		if (grpPlayer getVariable ["gang_id", 0] == 371) then {
-			_return = [["base_spawn_lameute","Base de la Meute","\a3\ui_f\data\map\MapControl\rock_ca.paa"]] + _return;
+			_return pushBack ["base_spawn_lameute","Base de la Meute","\a3\ui_f\data\map\MapControl\rock_ca.paa"];
 		};
 		
 		if (grpPlayer getVariable ["gang_id", 0] == 369) then {
-			_return = [["base_spawn_lamafia","Base de la Mafia","\a3\ui_f\data\map\MapControl\rock_ca.paa"]] + _return;
+			_return pushBack ["base_spawn_lamafia","Base de la A.R.I","\a3\ui_f\data\map\MapControl\rock_ca.paa"];
 		};
 		
 		if (count life_houses > 0) then {
