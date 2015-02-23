@@ -5,7 +5,12 @@ altislife.fr
 */
 
 private["_unit"];
-_unit = cursorTarget;
+_unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
+
+//Error checks
+if(isNull _target) exitWith {};
+if(!isPlayer _target) exitWith {};
+
 player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 waitUntil{animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";};
 sleep 1;
