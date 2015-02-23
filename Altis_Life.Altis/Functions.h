@@ -112,6 +112,7 @@ class Life_Client_Core
 		class takeMap {};
 		class takePhone {};
 		class takeUniform {};
+		class takeWeapons {};
 	};
 
 	class Housing
@@ -144,6 +145,7 @@ class Life_Client_Core
 		class varToStr {};
 		class impoundPrice {};
 		class itemWeight {};
+		class itemIcon {};
 		class taxRate {};
 		class virt_shops {};
 		class vehShopLicenses {};
