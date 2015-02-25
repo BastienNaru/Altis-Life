@@ -334,6 +334,7 @@ switch(_shop) do
 						["optic_Hamr",nil,2975],
 						["acc_flashlight",nil,850],
 						["Rangefinder",nil,6800],
+						["NVGoggles",nil,10000],
 						["6Rnd_45ACP_Cylinder",nil,210],
 						["30Rnd_9x21_Mag",nil,425],
 						["20Rnd_556x45_UW_mag",nil,425],
