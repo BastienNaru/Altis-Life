@@ -20,22 +20,31 @@ if((uiNamespace getVariable["Weapon_Shop_Filter",0]) == 1) then
 	{
 		_price = 0;
 	}
-		else
+	else
 	{
 		_price = (__GETC__(life_weapon_shop_array) select _iS) select 1;
+		
+		if (__GETC__(life_donator) >= 1) then {
+			_price = round(_price * (1 - 0.05 * __GETC__(life_donator)));
+		};
 	};
-	_priceTag ctrlSetStructuredText parseText format ["<t size='0.8'>Price: <t color='#8cff9b'>$%1</t></t>",[(_price)] call life_fnc_numberText];
+	_priceTag ctrlSetStructuredText parseText format ["<t size='0.8'>Prix: <t color='#8cff9b'>%1€</t></t>",[(_price)] call life_fnc_numberText];
 	_control lbSetValue[_index,_price];
 }
 	else
 {
 	_price = _control lbValue _index;
+	
+	if (__GETC__(life_donator) >= 1) then {
+		_price = round(_price * (1 - 0.05 * __GETC__(life_donator)));
+	};
+	
 	if(_price > hBf0MznDHQm7X5DFFSmy) then
 	{
-		_priceTag ctrlSetStructuredText parseText format ["<t size='0.8'>Price: <t color='#ff0000'>$%1</t><br/>You lack: <t color='#8cff9b'>$%2</t></t>",[(_price)] call life_fnc_numberText,[(_price - hBf0MznDHQm7X5DFFSmy)] call life_fnc_numberText];
+		_priceTag ctrlSetStructuredText parseText format ["<t size='0.8'>Prix: <t color='#ff0000'>%1€</t><br/>Vous manquez de: <t color='#8cff9b'>%2€</t></t>",[(_price)] call life_fnc_numberText,[(_price - hBf0MznDHQm7X5DFFSmy)] call life_fnc_numberText];
 	}
 		else
 	{
-		_priceTag ctrlSetStructuredText parseText format ["<t size='0.8'>Price: <t color='#8cff9b'>$%1</t></t>",[(_price)] call life_fnc_numberText];
+		_priceTag ctrlSetStructuredText parseText format ["<t size='0.8'>Prix: <t color='#8cff9b'>%1€</t></t>",[(_price)] call life_fnc_numberText];
 	};
 };
