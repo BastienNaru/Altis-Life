@@ -78,7 +78,7 @@ _units = _units - [player];
 						default {"Recrue"};
 					}]};
 				case (_x getVariable "medecin"): {format["<t color='#02A001'><img image='\a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1<br/><t size='0.8' color='#99FF99'>Médecin</t>",_x getVariable ["realname",name _x]]};
-				case (_x getVariable "mercenaire"): {format["<t color='#FF3333'><img image='\a3\ui_f\data\gui\cfg\CommunicationMenu\defend_ca.paa' size='1.5'></img></t> %1<br/><t size='0.8' color='#99FF99'>Mercenaire</t>",_x getVariable ["realname",name _x]]};
+				case (!isNil {(_x getVariable "merco_rank")}): {format["<t color='#FF3333'><img image='\a3\ui_f\data\gui\cfg\CommunicationMenu\defend_ca.paa' size='1.5'></img></t> %1<br/><t size='0.8' color='#99FF99'>Mercenaire</t>",_x getVariable ["realname",name _x]]};
 				default {
 					if(!isNil {(group _x) getVariable "gang_name"}) then {
 						format["%1<br/><t size='0.8' color='#B6B6B6'>%2</t>",_x getVariable ["realname",name _x],(group _x) getVariable ["gang_name",""]];
