@@ -16,7 +16,9 @@ and
 (getpos (nearestObject [getpos player, "SmokeShellBlue"]) select 2 < 0.5)
 };
 
-    if (headgear player != "H_PilotHelmetFighter_B") then
+    if (headgear player != "H_PilotHelmetFighter_B"
+		&& goggles player != "G_Balaclava_combat"
+		&& goggles player != "G_Combat") then
     {
         "dynamicBlur" ppEffectEnable true; // enables ppeffect
         "dynamicBlur" ppEffectAdjust [20]; // intensity of blur
