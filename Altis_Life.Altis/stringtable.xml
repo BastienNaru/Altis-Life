@@ -1496,7 +1496,7 @@
 			<Original>You have sold a %1 for $%2</Original>
 			<English>You have sold a %1 for $%2</English>
 			<German>Du hast einen %1 für $%2 verkauft</German>
-			<French>Tu as vendu un %1 pour %2€</French>
+			<French>Tu as vendu un(e) %1 pour %2€</French>
 			<Italian>Hai venduto un %1 per %2€</Italian>
 			<Portuguese>Você vendeu %1 por R$%2</Portuguese>
 		</Key>

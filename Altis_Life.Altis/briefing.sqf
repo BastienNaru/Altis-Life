@@ -25,20 +25,6 @@ player createDiarySubject ["touches","Touches Altis Life"];
 	];
 
 
-	player createDiaryRecord ["infos",
-		[
-			"",
-				"
-				<br />
-				Notre TeamSpeak: <font color='#AAF200'>ts.altislife-france.com</font><br />
-				Notre Site: <font color='#AAF200'><a href='http://www.altislife.france.com'>www.altislife-france.com</a></font><br />
-				<br />
-				Pour connaître les touches spécifiques à Altis Life et au serveur, allez dans la catégorie touches.
-				"
-		]
-	];
-
-
 	player createDiaryRecord ["touches",
 		[
 			"Police",
