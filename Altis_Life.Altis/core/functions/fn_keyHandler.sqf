@@ -167,6 +167,20 @@ switch (_code) do
 						};
 					};
 				};
+			}
+			else {
+				_handled = true;
+				if (vehicle player == player && !(player getVariable ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+				{
+					if (player getVariable ["surrender", false]) then
+					{
+						player setVariable ["surrender", false, true];
+					}
+					else
+					{
+						[] spawn life_fnc_surrender;
+					};
+				};
 			};
 		};
 		
@@ -208,23 +222,6 @@ switch (_code) do
 				} else {
 					if(license_civ_medecin) then {
 						[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
-					};
-				};
-			};
-		}
-		else {
-			if (_shift) then
-			{
-				_handled = true;
-				if (vehicle player == player && !(player getVariable ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
-				{
-					if (player getVariable ["surrender", false]) then
-					{
-						player setVariable ["surrender", false, true];
-					}
-					else
-					{
-						[] spawn life_fnc_surrender;
 					};
 				};
 			};

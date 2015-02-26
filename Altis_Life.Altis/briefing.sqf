@@ -45,7 +45,7 @@ player createDiarySubject ["touches","Touches Altis Life"];
 				Y: Ouvrir le menu Joueur<br />
 				U: Verouiller et dévérouilller un véhicule et/ou une maison<br />
 				T: Ouvrir l'inventaire d'un véhicule<br />
-				MAJ Gauche + F: Mettre les mains sur la tête<br />
+				MAJ Gauche + L: Mettre les mains sur la tête<br />
 				<br />
 				<font color='#6EEE43'>Si vous avez une arme</font><br />
 				MAJ Gauche + G: Assomer (peut voler argent, et attacher si menottes dans l'inventaire)<br />
