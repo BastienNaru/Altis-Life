@@ -15,7 +15,7 @@ if (uniform player == "U_Rangemaster") then {
 };
 
 if (uniform player == "U_B_CombatUniform_mcam") then {
-	player setObjectTextureGlobal [0,"textures\skins\police\U_B_CombatUniform_mcam RAID.jpg"];
+	player setObjectTextureGlobal [0,"textures\skins\police\U_B_CombatUniform_mcam Police.jpg"];
 };
 
 if (backpack player == "B_Bergen_blk") then {
