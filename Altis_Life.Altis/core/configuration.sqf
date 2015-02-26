@@ -355,7 +355,7 @@ __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 	Plus petit prix disponible pour chaque véhicule
 	(utilisé pour calculer le prix de sortie, de vente, d'assurance, de location et de caution)
 */
-life_vehicles_price =
+life_vehicles_prices =
 [
 	["C_Kart_01_Blu_F",50000],
 	["C_Kart_01_Fuel_F",50000],
@@ -374,7 +374,7 @@ life_vehicles_price =
 	["B_Truck_01_box_F",850000],
 	["O_Truck_03_device_F",650000],
 	["I_Truck_02_box_F",50000],
-	["B_Heli_Light_01_F",300000],
+	["B_Heli_Light_01_F",100000],
 	["C_Heli_Light_01_civil_F",250000],
 	["O_Heli_Light_02_unarmed_F",450000],
 	["C_Rubberboat",10000],
@@ -388,4 +388,4 @@ life_vehicles_price =
 	["I_MRAP_03_F",116000],
 	["I_Plane_Fighter_03_AA_F",10000000]
 ];
-__CONST__(life_vehicles_price,life_vehicles_price);
+__CONST__(life_vehicles_prices,life_vehicles_prices);
