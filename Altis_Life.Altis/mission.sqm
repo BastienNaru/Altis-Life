@@ -33125,7 +33125,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Magasin de vêtements"",life_fnc_clothingMenu,""medic""];this addAction[""<t color='#ADFF2F'>Magasin médical</t>"",life_fnc_weaponShopMenu,""medstore""];this addAction[""<t color='#ADFF2F'>Distributeur</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Magasin de vêtements"",life_fnc_clothingMenu,""medic""];this addAction[""<t color='#ADFF2F'>Magasin divers</t>"",life_fnc_weaponShopMenu,""medstore""];this addAction[""<t color='#ADFF2F'>Distributeur</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item3147
 		{
