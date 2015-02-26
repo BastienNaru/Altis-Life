@@ -403,7 +403,6 @@ switch(_shop) do
 				["ToolKit",nil,250],
 				["FirstAidKit",nil,1500],
 				["Medikit",nil,15000],
-				["NVGoggles",nil,10000],
 				["Chemlight_red",nil,300],
 				["Chemlight_yellow",nil,300],
 				["Chemlight_green",nil,300],
