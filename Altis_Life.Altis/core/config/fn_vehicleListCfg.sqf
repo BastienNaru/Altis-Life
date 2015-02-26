@@ -289,6 +289,12 @@ switch (_shop) do
 		_return pushBack ["C_Hatchback_01_sport_F",40000];
 		_return pushBack ["C_Van_01_box_F",100000];
 	};
+	
+	case "medecin_air":
+	{
+		_return pushBack ["B_Heli_Light_01_F",250000];
+		_return pushBack ["O_Heli_Light_02_unarmed_F",350000];
+	};
 };
 
 _return;
