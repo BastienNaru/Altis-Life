@@ -1,3 +1,8 @@
+#define PHONE_X safeZoneX + safeZoneW - 0.15 - 0.4
+#define PHONE_Y safeZoneY + safeZoneH - 0.05 - 1
+#define COLUMN_1 PHONE_X + 0.045
+#define COLUMN_2 COLUMN_1 + 0.1625
+
 class Life_cell_phone {
 	idd = 3000;
 	name= "life_cell_phone";
@@ -6,43 +11,39 @@ class Life_cell_phone {
 	onLoad = "[] spawn life_fnc_cellphone";
 	
 	class controlsBackground {
-
-		
 		class Voxidphone : Life_RscPicture 
 		{
 			idc = 3001;
 			text = "textures\autre\telephone.paa";
-			x = 0.5675;
-			y = -0.00433818;
+			colorBackground[] = {0,0,0,0};
+			x = PHONE_X;
+			y = PHONE_Y;
 			w = 0.4;
 			h = 1;
 		};
-	
 	};
 			
 	class controls {
-		
 		class TextToSend : Life_RscTitle 
 		{
-		
-			colorBackground[] = {0, 0, 0, 0};
 			idc = 3002;
-			text = "$STR_CELL_TextToSend";
-			x = 0.605607;
-			y = 0.210809;
-			w = 0.2725;
+			style = ST_CENTER;
+			text = "Altis Messenger";
+			x = COLUMN_1;
+			y = PHONE_Y + 0.211;
+			w = 0.3125;
 			h = 0.04;
 		};
 		
-		   class textEdit : Life_RscEdit 
+		class textEdit : Life_RscEdit 
 		{
-		
-		idc = 3003;
-		
-		text = "";
-		x = 0.607904; y = 0.340086;
-		w = 0.325; h = 0.26;
-		
+			idc = 3003;
+			text = "";
+			colorBackground[] = {0.6,0.6,0.6,0.3};
+			x = COLUMN_1;
+			y = PHONE_Y + 0.345;
+			w = 0.3125;
+			h = 0.26;
 		};
 		
 		class TextMsgButton : life_RscButtonMenu 
@@ -53,8 +54,8 @@ class Life_cell_phone {
 			onButtonClick = "[] call TON_fnc_cell_textmsg";
 			colorActive[] = {0,0,0,0};
 			
-			x = 0.6125;
-			y = 0.64;
+			x = COLUMN_1;
+			y = PHONE_Y + 0.64;
 			w = 0.15;
 			h = 0.05;
 		};
@@ -63,8 +64,10 @@ class Life_cell_phone {
 		{
 			idc = 3004;
 			
-			x = 0.6125; y = 0.28;
-			w = 0.2375; h = 0.04;
+			x = COLUMN_1;
+			y = PHONE_Y + 0.28;
+			w = 0.3125;
+			h = 0.04;
 		};
 
 		class TextCopButton : life_RscButtonMenu 
@@ -74,8 +77,8 @@ class Life_cell_phone {
 			colorBackground[] = {0,0.23,1,0.48};
 			onButtonClick = "[] call TON_fnc_cell_textcop";
 			
-			x = 0.775;
-			y = 0.64;
+			x = COLUMN_2;
+			y = PHONE_Y + 0.64;
 			w = 0.15;
 			h = 0.05;
 		};
@@ -87,8 +90,8 @@ class Life_cell_phone {
 			colorBackground[] = {0,0.23,1,0.48};
 			onButtonClick = "[] call TON_fnc_cell_textadmin";
 			
-			x = 0.775;
-			y = 0.72;
+			x = COLUMN_2;
+			y = PHONE_Y + 0.72;
 			w = 0.15;
 			h = 0.05;
 		};
@@ -100,8 +103,8 @@ class Life_cell_phone {
 			colorBackground[] = {0,0.23,1,0.48};
 			onButtonClick = "[] call TON_fnc_cell_adminmsg";
 			
-			x = 0.6125;
-			y = 0.8;
+			x = COLUMN_1;
+			y = PHONE_Y + 0.8;
 			w = 0.15;
 			h = 0.05;
 		};
@@ -113,8 +116,8 @@ class Life_cell_phone {
 			colorBackground[] = {0,0.23,1,0.48};
 			onButtonClick = "[] call TON_fnc_cell_adminmsgall";
 			
-			x = 0.775;
-			y = 0.8;
+			x = COLUMN_2;
+			y = PHONE_Y + 0.8;
 			w = 0.15;
 			h = 0.05;
 		};
@@ -126,8 +129,8 @@ class Life_cell_phone {
 			colorBackground[] = {0,0.23,1,0.48};
 			onButtonClick = "[] call TON_fnc_cell_emsrequest";
 			
-			x = 0.6125;
-			y = 0.72;
+			x = COLUMN_1;
+			y = PHONE_Y + 0.72;
 			w = 0.15;
 			h = 0.05;
 		};
@@ -136,11 +139,10 @@ class Life_cell_phone {
 			idc = -1;
 			text = "";
 			onButtonClick = "closeDialog 0;";
-			colorBackground[] = {0,0,0,0};
-			x = 0.75;
-			y = 0.89;
+			x = COLUMN_2 - 0.00625 - 0.025;
+			y = PHONE_Y + 0.9;
 			w = 0.05;
-			h = 0.06;
+			h = 0.07;
 		};
 	};
 };
