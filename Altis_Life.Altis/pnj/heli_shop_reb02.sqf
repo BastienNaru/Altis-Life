@@ -6,7 +6,7 @@ _this enableSimulation false;
 _this allowDamage false; 
 _this addAction["<t color='#AAF200'>Héliport Rebelle</t>",
 life_fnc_vehicleShopMenu,["reb_air",civilian,["air_reb_1"]
-,"civ","Héliport Rebelle"],0,false,false,"",'license_civ_rebel'];
+,"reb","Héliport Rebelle"],0,false,false,"",'license_civ_rebel'];
 
 _this addAction["<t color='#FF9900'>Garage</t>",
 {  [[getPlayerUID player,playerSide,"Air",player],"TON_fnc_getVehicles",false,false] spawn life_fnc_MP;

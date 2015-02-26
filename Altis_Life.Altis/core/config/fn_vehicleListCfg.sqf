@@ -143,7 +143,12 @@ switch (_shop) do
 			["I_Heli_light_03_unarmed_F",1650000],
 			["O_Heli_Transport_04_covered_F",1100000],
 			["O_Heli_Attack_02_F",3300000]
-		];		
+		];
+			
+		if(__GETC__(life_donator) >= 1) then
+		{
+			_return pushBack ["B_Heli_Light_01_armed_F",2000000];	
+		};		
 	};
 
 /*

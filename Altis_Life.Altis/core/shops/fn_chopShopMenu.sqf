@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_chopShopMenu.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -21,10 +22,15 @@ _control = ((findDisplay 39400) displayCtrl 39402);
 		_className = typeOf _x;
 		_displayName = getText(configFile >> "CfgVehicles" >> _className >> "displayName");
 		_picture = getText(configFile >> "CfgVehicles" >> _className >> "picture");
-		_ind = [_className,(call life_vehicles_price)] call TON_fnc_index;
+		_ind = [_className,(call life_vehicles_prices)] call TON_fnc_index;
 		
 		if(_ind != -1 && count crew _x == 0) then {
-			_price = round((((call life_vehicles_price) select _ind) select 1) / 3);
+			_price = round((((call life_vehicles_prices) select _ind) select 1) / 3);
+			
+			if (__GETC__(life_donator) >= 1) then {
+				_price = round(_price * (1 + 0.05 * __GETC__(life_donator)));
+			};
+			
 			_control lbAdd _displayName;
 			_control lbSetData [(lbSize _control)-1,str(_forEachIndex)];
 			_control lbSetPicture [(lbSize _control)-1,_picture];

@@ -19,16 +19,30 @@ _hasInsurance =  (_dataArr select 2) - 1;
 _vehicleInfo = [_className] call life_fnc_fetchVehInfo;
 _trunkSpace = [_className] call life_fnc_vehicleWeightCfg;
 
-_basePrice = [_className,__GETC__(life_vehicles_price)] call TON_fnc_index;
-_basePrice = if(_basePrice == -1) then {10000} else {(__GETC__(life_vehicles_price) select _basePrice) select 1;};
+_basePrice = [_className,__GETC__(life_vehicles_prices)] call TON_fnc_index;
+_basePrice = if(_basePrice == -1) then {10000} else {(__GETC__(life_vehicles_prices) select _basePrice) select 1;};
 
 _sellPrice = round(_basePrice * 0.5);
+
+if (__GETC__(life_donator) >= 1) then {
+	_sellPrice = round(_sellPrice * (1 + 0.05 * __GETC__(life_donator)));
+};
 
 if(playerSide == west) then {
 	_retrievePrice = 1000
 }
 else {
 	_retrievePrice = round(_basePrice * 0.1);
+};
+
+if (__GETC__(life_donator) >= 1) then {
+	_retrievePrice = round(_retrievePrice * (1 - 0.05 * __GETC__(life_donator)));
+};
+
+_insurePrice = round(_basePrice * 0.25);
+
+if (__GETC__(life_donator) >= 1) then {
+	_insurePrice = round(_insurePrice * (1 - 0.05 * __GETC__(life_donator)));
 };
 
 if (_hasInsurance > 0) then {
@@ -47,7 +61,8 @@ else {
 	" +(localize "STR_Shop_Veh_UI_PSeats")+ " %6<br/>
 	" +(localize "STR_Shop_Veh_UI_Trunk")+ " %7<br/>
 	" +(localize "STR_Shop_Veh_UI_Fuel")+ " %8<br/>
-	Assurance: %9
+	Assurance: %9<br/>
+	Prix de l'assurance: <t color='#8cff9b'>%10€</t>
 	",
 [_retrievePrice] call life_fnc_numberText,
 [_sellPrice] call life_fnc_numberText,
@@ -57,7 +72,8 @@ _vehicleInfo select 11,
 _vehicleInfo select 10,
 if(_trunkSpace == -1) then {"None"} else {_trunkSpace},
 _vehicleInfo select 12,
-_insurance
+_insurance,
+_insurePrice
 ];
 
 ctrlShow [2803,true];
