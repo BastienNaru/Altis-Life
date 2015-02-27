@@ -60,6 +60,7 @@ if (_isTazer) exitWith {};
 // Flashbang
 if (_projectile in ["mini_Grenade"]) then {
 	_damage = 0;
+	player setDamage 0;
 	[_projectile] spawn life_fnc_handleFlashbang;
 };
 
