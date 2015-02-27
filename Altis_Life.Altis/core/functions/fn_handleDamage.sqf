@@ -26,10 +26,12 @@ if(!isNull _source) then {
 		if(_projectile in ["B_9x21_Ball"] && _curWep in ["hgun_P07_F","hgun_P07_snds_F"]) then {
 			_isTazer = true;
 			
+			_unit setDamage 0;
+			
 			private["_distance","_isVehicle","_isQuad"];
 			_distance = 15;
 			_isVehicle = if(vehicle player != player) then {true} else {false};
-			_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+			_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) in ["B_Quadbike_01_F","C_Kart_01_F"]) then {true} else {false}} else {false};
 			
 			_damage = 0;
 			if(_unit distance _source < _distance) then {

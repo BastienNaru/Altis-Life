@@ -165,7 +165,7 @@ switch (_shop) do
 			["B_Quadbike_01_F",1700],
 			["C_SUV_01_F",12000],
 			["I_MRAP_03_F",116000],
-			["B_G_Offroad_01_F",35000],
+			["C_Offroad_01_F",35000],
 			["B_G_Offroad_01_armed_F",198000]
 		];		
 	};
@@ -284,16 +284,22 @@ switch (_shop) do
 
 	case "medecin_car":
 	{
-		_return pushBack ["C_Offroad_01_F",20000];
-		_return pushBack ["C_SUV_01_F",25000];
-		_return pushBack ["C_Hatchback_01_sport_F",40000];
-		_return pushBack ["C_Van_01_box_F",100000];
+		if(license_civ_medecin) then 
+		{
+			_return pushBack ["C_Offroad_01_F",20000];
+			_return pushBack ["C_SUV_01_F",25000];
+			_return pushBack ["C_Hatchback_01_sport_F",40000];
+			_return pushBack ["C_Van_01_box_F",100000];
+		};
 	};
 	
 	case "medecin_air":
 	{
-		_return pushBack ["B_Heli_Light_01_F",250000];
-		_return pushBack ["O_Heli_Light_02_unarmed_F",350000];
+		if(license_civ_medecin) then
+		{
+			_return pushBack ["B_Heli_Light_01_F",250000];
+			_return pushBack ["O_Heli_Light_02_unarmed_F",350000];
+		};
 	};
 };
 

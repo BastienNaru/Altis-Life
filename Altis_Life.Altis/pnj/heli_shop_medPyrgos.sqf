@@ -6,7 +6,7 @@ _this enableSimulation false;
 _this allowDamage false; 
 _this addAction["<t color='#AAF200'>Héliport médecin</t>",
 life_fnc_vehicleShopMenu,["medecin_air",civilian,["medic_air_04","medic_air_04_1"]
-,"med","Héliport médecin"],0,false,false,"",'license_civ_medecin'];
+,"med","Héliport médecin"],1,false,false,"",'license_civ_medecin'];
 
 _this addAction["<t color='#FF9900'>Garage</t>",
 {  [[getPlayerUID player,playerSide,"Air",player],"TON_fnc_getVehicles",false,false] spawn life_fnc_MP;

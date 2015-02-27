@@ -84,6 +84,10 @@ switch(playerSide) do {
 		[_vehicle,"cop_offroad",true] spawn life_fnc_vehicleAnimate;
 	};
 	
+	case east: {
+		[_vehicle,"merco_offroad",true] spawn life_fnc_vehicleAnimate;
+	};
+	
 	case civilian: {
 		if((life_veh_shop select 2) == "civ" && {_className == "B_Heli_Light_01_F"}) then {
 			[_vehicle,"civ_littlebird",true] spawn life_fnc_vehicleAnimate;

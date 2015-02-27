@@ -126,6 +126,11 @@ switch(_shop) do
 			["FirstAidKit",nil,150],
 			["Medikit",nil,2000]
 		];
+		
+		if (__GETC__(life_coplevel) >= 5) then {
+			_content pushBack ["MiniGrenade","Grenade aveuglante",500];
+			_content pushBack ["SmokeShellBlue","Gaz lacrymogene",500];
+		};
 				
 		if (__GETC__(life_coplevel) >= 4) then {
 			_content pushBack ["B_UavTerminal",nil,2000];
@@ -189,6 +194,28 @@ switch(_shop) do
 		};
 		
 		["Armurerie rebelle", _content];
+	};
+	
+	case "rebel_gen":
+	{
+		_content =
+		[
+			["Binocular",nil,150],
+			["ItemMap",nil,50],
+			["ItemGPS",nil,1250],
+			["ItemRadio",nil,200],
+			["ToolKit",nil,250],
+			["FirstAidKit",nil,1500],
+			["Medikit",nil,15000],
+			["Chemlight_red",nil,300],
+			["Chemlight_yellow",nil,300],
+			["Chemlight_green",nil,300],
+			["Chemlight_blue",nil,300]
+			["NVGoggles",nil,10000],
+			["SmokeShellBlue","Gaz lacrymogene",10000]
+		];
+		
+		["Divers", _content];
 	};
 
 	case "merco":
@@ -408,13 +435,6 @@ switch(_shop) do
 				["Chemlight_green",nil,300],
 				["Chemlight_blue",nil,300]
 		];
-		
-		if (license_civ_rebel) then {
-			_content pushBack ["NVGoggles",nil,10000];
-			_content pushBack ["MiniGrenade","Grenade aveuglante",500];
-			_content pushBack ["SmokeShellBlue","Gaz lacrymogene",500];
-		};
-		
 		["Divers", _content];
 	};
 	

@@ -26,6 +26,25 @@ switch (playerSide) do
 		//Insigne de police
 		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer insigne de police</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget ']];
 	};
+	case east:
+	{
+	
+	life_actions = [player addAction["<t color='#FF0000'>Attacher</t>",life_fnc_restrainAction,cursorTarget,9999999,false,false,"",'(
+		(animationState cursorTarget) == "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon" 
+		|| (animationState cursorTarget) == "Incapacitated" 
+		|| (animationState cursorTarget) == "AwopPercMstpSgthWrflDnon_End2") 
+		&& (currentWeapon player != "") 
+		&& !(player getVariable "restrained") 
+		&& cursorTarget isKindOf "Man" 
+		&& (isPlayer cursorTarget) 
+		&& alive cursorTarget 
+		&& cursorTarget distance player < 3 
+		&& !(cursorTarget getVariable "Escorting") 
+		&& !(cursorTarget getVariable "restrained") 
+		&& speed cursorTarget < 1 
+		&& life_inv_menotte > 0']];
+	
+	};
 	case civilian:
 	{
 		//Restrain Actions
