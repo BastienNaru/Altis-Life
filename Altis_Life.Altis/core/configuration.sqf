@@ -361,7 +361,7 @@ life_vehicles_prices =
 	["C_Kart_01_Fuel_F",50000],
 	["C_Kart_01_Red_F",50000],
 	["C_Kart_01_Vrana_F",50000],
-	["B_Quadbike_01_F",50000],
+	["B_Quadbike_01_F",5000],
 	["C_Hatchback_01_F",21000],
 	["C_Hatchback_01_sport_F",50000],
 	["C_SUV_01_F",38000],
