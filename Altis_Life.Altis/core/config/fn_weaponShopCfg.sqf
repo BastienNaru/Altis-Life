@@ -127,7 +127,7 @@ switch(_shop) do
 			["Medikit",nil,2000]
 		];
 		
-		if (__GETC__(life_coplevel) >= 5) then {
+		if (__GETC__(life_coplevel) >= 2) then {
 			_content pushBack ["MiniGrenade","Grenade aveuglante",500];
 			_content pushBack ["SmokeShellBlue","Gaz lacrymogene",500];
 		};
