@@ -1,7 +1,7 @@
 _mycv = cameraView;
 
 _n2sh = 10;  
-_n2c = "Select Player:";
+_n2c = "Choisir joueur:";
 shnext = false;
 nlist = [];  
 selecteditem = "";
@@ -16,9 +16,9 @@ if (spectate) then
 		_pmenu = [["",true],[_n2c, [-1], "", -5, [["expression", ""]], "1", "0"]];
 		for "_i" from (_this select 0) to (_this select 1) do
 		{_arr = [format['%1',nlist select (_i)], [_i - (_this select 0) + 2],  "", -5, [["expression", format["selecteditem = nlist select %1;",_i]]], "1", "1"];_pmenu set [_i+2, _arr];};
-		if (count nlist >  (_this select 1)) then {_pmenu set [(_this select 1)+2, ["Next", [12], "", -5, [["expression", "shnext = true;"]], "1", "1"]];}
+		if (count nlist >  (_this select 1)) then {_pmenu set [(_this select 1)+2, ["Suivant", [12], "", -5, [["expression", "shnext = true;"]], "1", "1"]];}
 		else {_pmenu set [(_this select 1)+2, ["", [-1], "", -5, [["expression", ""]], "1", "0"]];};
-		_pmenu set [(_this select 1)+3, ["Exit", [13], "", -5, [["expression", "selecteditem = 'exitscript';"]], "1", "1"]];
+		_pmenu set [(_this select 1)+3, ["Quitter", [13], "", -5, [["expression", "selecteditem = 'exitscript';"]], "1", "1"]];
 		showCommandingMenu "#USER:_pmenu";
 	};
 	_j = 0; _n2sh = 10; if (_n2sh>9) then {_n2sh=10;};
@@ -38,7 +38,7 @@ if (spectate) then
 				
 				F3_EH = (findDisplay 46) displayAddEventHandler ["KeyDown" , "if ((_this select 1) == 0x3D) then {spectate = false;};"];	
 				(vehicle _x) switchCamera "EXTERNAL";
-				titleText ["Spectating...","PLAIN DOWN"];titleFadeOut 4;
+				titleText ["Big brother vous surveille...","PLAIN DOWN"];titleFadeOut 4;
 				waitUntil { !(alive _x) or !(alive player) or !(spectate)};
 				(findDisplay 46) displayRemoveEventHandler ["KeyDown" , F3_EH];
 				player switchCamera _mycv;	
@@ -50,5 +50,5 @@ if (spectate) then
 };
 if (!spectate) then 
 {	
-	titleText ["Back to player...","PLAIN DOWN"];titleFadeOut 4;
+	titleText ["Retour au joueur...","PLAIN DOWN"];titleFadeOut 4;
 };

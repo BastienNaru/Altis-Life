@@ -237,6 +237,7 @@ class Life_Client_Core
 		class onPlayerDisconnect {};
 		class safeString {};
 		class fatigueReset {};
+		class addAdminMenu {};
 	};
 
 	class Network

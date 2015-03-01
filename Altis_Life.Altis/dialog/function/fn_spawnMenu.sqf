@@ -15,9 +15,7 @@ disableSerialization;
 	[] execVM "addons\chien.sqf";
 };*/
 
-if ((getPlayerUID player) in ["76561198032371812", "76561198144354778", "76561198176118075"]) then {
-	player addaction [("<t color=""#0074E8"">" + ("Menu d'Administration") +"</t>"),"addons\admintools\AdminToolsMain.sqf","",5,false,true,"",""];
-};
+[] call life_fnc_addAdminMenu;
 
 if(life_is_arrested) exitWith {
 	[] call life_fnc_respawned;
