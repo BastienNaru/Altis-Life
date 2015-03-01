@@ -210,7 +210,7 @@ switch(_shop) do
 			["Chemlight_red",nil,300],
 			["Chemlight_yellow",nil,300],
 			["Chemlight_green",nil,300],
-			["Chemlight_blue",nil,300]
+			["Chemlight_blue",nil,300],
 			["NVGoggles",nil,10000],
 			["SmokeShellBlue","Gaz lacrymogene",10000]
 		];

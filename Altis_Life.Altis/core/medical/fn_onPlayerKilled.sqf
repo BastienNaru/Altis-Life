@@ -18,6 +18,11 @@ _unit setVariable["restrained",FALSE,TRUE];
 _unit setVariable["Escorting",FALSE,TRUE];
 _unit setVariable["transporting",FALSE,TRUE]; //Why the fuck do I have this? Is it used?
 _unit setVariable["steam64id",(getPlayerUID player),true]; //Set the UID.
+//FAR_Revive vars
+_unit setVariable ["FAR_killerPrimeSuspect", nil];
+_unit setVariable ["FAR_killerVehicle", nil];
+_unit setVariable ["FAR_killerAmmo", nil];
+_unit setVariable ["FAR_killerSuspects", nil];
 
 //Setup our camera view
 life_deathCamera  = "CAMERA" camCreate (getPosATL _unit);
