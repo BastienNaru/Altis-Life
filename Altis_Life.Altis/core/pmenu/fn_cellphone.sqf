@@ -10,7 +10,15 @@ private["_display","_units","_type"];
 
 disableSerialization;
 
-if(!("ItemRadio" in (assignedItems player))) exitWith {hint "Vous n'avez pas de téléphone! (Radio)"; closeDialog 0;};
+if(!("ItemRadio" in (assignedItems player))) exitWith {
+	hint "Vous n'avez pas de téléphone! (Radio)";
+	closeDialog 0;
+};
+
+if (player getVariable ["restrained", false]) exitWith {
+	hint "Vous êtes menotté, il est donc difficile de sortir votre téléphone de votre poche!";
+	closeDialog 0;
+};
 
 waitUntil {!isNull findDisplay 3000};
 _display = findDisplay 3000;
