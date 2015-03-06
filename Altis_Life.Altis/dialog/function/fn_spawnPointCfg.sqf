@@ -60,7 +60,7 @@ switch (_side) do
 			};
 		};
 		
-		if (grpPlayer getVariable ["gang_id", 0] == 371) then {
+		if (grpPlayer getVariable ["gang_id", 0] == 441) then {
 			_return pushBack ["base_spawn_lameute","Base de la Meute","\a3\ui_f\data\map\MapControl\rock_ca.paa"];
 		};
 		

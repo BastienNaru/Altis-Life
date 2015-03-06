@@ -29,6 +29,14 @@ switch (typeOf _vehicle) do
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
 	};
+	case "C_Hatchback_01_sport_F":		
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];
+	};
+	case "C_Van_01_box_F":		
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];
+	};
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 

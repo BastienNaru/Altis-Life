@@ -23475,7 +23475,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampHalogen_F";
 			skill=0.60000002;
-			init="this allowDamage false; this setPos [(getPos this select 0),(getPos this select 1),-7.0]";
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2174
 		{
@@ -35107,7 +35107,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3342
 		{
@@ -35117,7 +35117,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3343
 		{
@@ -35127,7 +35127,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3344
 		{
@@ -35137,7 +35137,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3345
 		{
@@ -35147,7 +35147,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3346
 		{
@@ -35157,7 +35157,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3347
 		{
@@ -35167,7 +35167,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3348
 		{
@@ -35177,7 +35177,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3349
 		{
@@ -35187,7 +35187,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3350
 		{
@@ -35197,7 +35197,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3351
 		{
@@ -35207,7 +35207,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3352
 		{
@@ -35217,7 +35217,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3353
 		{
@@ -35227,7 +35227,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3354
 		{
@@ -35237,7 +35237,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3355
 		{
@@ -35247,7 +35247,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3356
 		{
@@ -35257,7 +35257,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3357
 		{
@@ -35267,7 +35267,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3358
 		{
@@ -35277,7 +35277,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3359
 		{
@@ -35287,7 +35287,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3360
 		{
@@ -35297,7 +35297,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3361
 		{
@@ -35307,7 +35307,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3362
 		{
@@ -35317,7 +35317,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3363
 		{
@@ -35327,7 +35327,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3364
 		{
@@ -35337,7 +35337,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3365
 		{
@@ -35347,7 +35347,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3366
 		{
@@ -35357,7 +35357,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3367
 		{
@@ -35367,7 +35367,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3368
 		{
@@ -35377,7 +35377,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3369
 		{
@@ -35387,7 +35387,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3370
 		{
@@ -35397,7 +35397,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3371
 		{
@@ -35407,7 +35407,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3372
 		{
@@ -35943,7 +35943,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Addon_02_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3430
 		{
@@ -36413,7 +36413,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3481
 		{
@@ -36423,7 +36423,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3482
 		{
@@ -36433,7 +36433,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3483
 		{
@@ -36443,7 +36443,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3484
 		{
@@ -36453,7 +36453,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3485
 		{
@@ -36463,7 +36463,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3486
 		{
@@ -36473,7 +36473,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3487
 		{
@@ -36483,7 +36483,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3488
 		{
@@ -36493,7 +36493,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3489
 		{
@@ -36503,7 +36503,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3490
 		{
@@ -36513,7 +36513,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3491
 		{
@@ -36523,7 +36523,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3492
 		{
@@ -36533,7 +36533,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3493
 		{
@@ -36543,7 +36543,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3494
 		{
@@ -36553,7 +36553,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3495
 		{
@@ -36563,7 +36563,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3496
 		{
@@ -36573,7 +36573,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3497
 		{
@@ -36583,7 +36583,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3498
 		{
@@ -36593,7 +36593,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3499
 		{
@@ -36603,7 +36603,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3500
 		{
@@ -36613,7 +36613,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3501
 		{
@@ -36623,7 +36623,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3502
 		{
@@ -36633,7 +36633,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3503
 		{
@@ -36643,7 +36643,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3504
 		{
@@ -36653,7 +36653,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3505
 		{
@@ -36663,7 +36663,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3506
 		{
@@ -36673,7 +36673,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3507
 		{
@@ -36683,7 +36683,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3508
 		{
@@ -36693,7 +36693,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3509
 		{
@@ -36703,7 +36703,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3510
 		{
@@ -36713,7 +36713,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3511
 		{
@@ -36723,7 +36723,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3512
 		{
@@ -36733,7 +36733,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3513
 		{
@@ -36743,7 +36743,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3514
 		{
@@ -36753,7 +36753,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3515
 		{
@@ -36763,7 +36763,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3516
 		{
@@ -36773,7 +36773,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3517
 		{
@@ -36783,7 +36783,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3518
 		{
@@ -36793,7 +36793,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3519
 		{
@@ -36803,7 +36803,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3520
 		{
@@ -36814,7 +36814,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3521
 		{
@@ -36824,7 +36824,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3522
 		{
@@ -36834,7 +36834,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3523
 		{
@@ -36845,7 +36845,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3524
 		{
@@ -36855,7 +36855,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3525
 		{
@@ -36865,7 +36865,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3526
 		{
@@ -36876,7 +36876,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3527
 		{
@@ -36886,7 +36886,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3528
 		{
@@ -36896,7 +36896,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3529
 		{
@@ -36907,7 +36907,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3530
 		{
@@ -36917,7 +36917,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3531
 		{
@@ -36927,7 +36927,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3532
 		{
@@ -36938,7 +36938,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3533
 		{
@@ -36948,7 +36948,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3534
 		{
@@ -36958,7 +36958,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3535
 		{
@@ -36969,7 +36969,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3536
 		{
@@ -36979,7 +36979,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3537
 		{
@@ -36989,7 +36989,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3538
 		{
@@ -37000,7 +37000,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3539
 		{
@@ -37010,7 +37010,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3540
 		{
@@ -37020,7 +37020,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3541
 		{
@@ -37031,7 +37031,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3542
 		{
@@ -37041,7 +37041,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3543
 		{
@@ -37051,7 +37051,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3544
 		{
@@ -37061,7 +37061,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3545
 		{
@@ -37071,7 +37071,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3546
 		{
@@ -37081,7 +37081,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3547
 		{
@@ -37091,7 +37091,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3548
 		{
@@ -37101,7 +37101,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_WoodenTable_large_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3549
 		{
@@ -37111,7 +37111,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_WoodenTable_large_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3550
 		{
@@ -37121,7 +37121,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3551
 		{
@@ -37131,7 +37131,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3552
 		{
@@ -37141,7 +37141,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3553
 		{
@@ -37151,7 +37151,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Bench_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3554
 		{
@@ -37161,7 +37161,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_WoodenTable_large_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3555
 		{
@@ -37171,7 +37171,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_WoodenTable_large_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3556
 		{
@@ -37220,7 +37220,7 @@ class Mission
 			vehicle="ShootingPos_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3561
 		{
@@ -37231,7 +37231,7 @@ class Mission
 			vehicle="ShootingPos_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3562
 		{
@@ -37242,7 +37242,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3563
 		{
@@ -37253,7 +37253,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3564
 		{
@@ -37264,7 +37264,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3565
 		{
@@ -37275,7 +37275,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3566
 		{
@@ -37286,7 +37286,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3567
 		{
@@ -37297,7 +37297,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3568
 		{
@@ -37308,7 +37308,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3569
 		{
@@ -37319,7 +37319,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3570
 		{
@@ -37330,7 +37330,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3571
 		{
@@ -37341,7 +37341,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3572
 		{
@@ -37352,7 +37352,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3573
 		{
@@ -37363,7 +37363,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3574
 		{
@@ -37374,7 +37374,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3575
 		{
@@ -37385,7 +37385,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3576
 		{
@@ -37396,7 +37396,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3577
 		{
@@ -37407,7 +37407,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3578
 		{
@@ -37418,7 +37418,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3579
 		{
@@ -37429,7 +37429,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3580
 		{
@@ -37440,7 +37440,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3581
 		{
@@ -37451,7 +37451,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3582
 		{
@@ -37462,7 +37462,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3583
 		{
@@ -37473,7 +37473,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3584
 		{
@@ -37484,7 +37484,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3585
 		{
@@ -37495,7 +37495,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3586
 		{
@@ -37506,7 +37506,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3587
 		{
@@ -37517,7 +37517,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),2]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3588
 		{
@@ -37527,7 +37527,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3589
 		{
@@ -37538,7 +37538,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),2.7]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3590
 		{
@@ -37549,7 +37549,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),2]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3591
 		{
@@ -37559,7 +37559,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3592
 		{
@@ -37569,7 +37569,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3593
 		{
@@ -37579,7 +37579,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3594
 		{
@@ -38149,7 +38149,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3655
 		{
@@ -38159,7 +38159,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3656
 		{
@@ -38169,7 +38169,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3657
 		{
@@ -38179,7 +38179,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3658
 		{
@@ -38189,7 +38189,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3659
 		{
@@ -38199,7 +38199,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3660
 		{
@@ -38209,7 +38209,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3661
 		{
@@ -38219,7 +38219,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3662
 		{
@@ -38229,7 +38229,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3663
 		{
@@ -38239,7 +38239,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3664
 		{
@@ -38249,7 +38249,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3665
 		{
@@ -38259,7 +38259,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3666
 		{
@@ -38269,7 +38269,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3667
 		{
@@ -38279,7 +38279,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3668
 		{
@@ -38289,7 +38289,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3669
 		{
@@ -38299,7 +38299,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3670
 		{
@@ -38309,7 +38309,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3671
 		{
@@ -38319,7 +38319,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3672
 		{
@@ -38329,7 +38329,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3673
 		{
@@ -38339,7 +38339,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3674
 		{
@@ -38349,7 +38349,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3675
 		{
@@ -38359,7 +38359,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3676
 		{
@@ -38369,7 +38369,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3677
 		{
@@ -38379,7 +38379,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3678
 		{
@@ -38389,7 +38389,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3679
 		{
@@ -38399,7 +38399,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3680
 		{
@@ -38409,7 +38409,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3681
 		{
@@ -38419,7 +38419,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3682
 		{
@@ -38429,7 +38429,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3683
 		{
@@ -38439,7 +38439,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3684
 		{
@@ -38449,7 +38449,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3685
 		{
@@ -38459,7 +38459,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3686
 		{
@@ -38469,7 +38469,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3687
 		{
@@ -38479,7 +38479,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3688
 		{
@@ -38489,7 +38489,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3689
 		{
@@ -38499,7 +38499,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3690
 		{
@@ -38509,7 +38509,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3691
 		{
@@ -38519,7 +38519,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3692
 		{
@@ -38529,7 +38529,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3693
 		{
@@ -38539,7 +38539,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3694
 		{
@@ -38549,7 +38549,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3695
 		{
@@ -38559,7 +38559,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3696
 		{
@@ -38569,7 +38569,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3697
 		{
@@ -38579,7 +38579,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3698
 		{
@@ -38589,7 +38589,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3699
 		{
@@ -38599,7 +38599,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3700
 		{
@@ -38609,7 +38609,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3701
 		{
@@ -38619,7 +38619,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3702
 		{
@@ -38629,7 +38629,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3703
 		{
@@ -38639,7 +38639,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3704
 		{
@@ -38649,7 +38649,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Cargo_Patrol_V3_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3705
 		{
@@ -38659,7 +38659,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Cargo_Patrol_V3_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3706
 		{
@@ -38669,7 +38669,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3707
 		{
@@ -38679,7 +38679,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3708
 		{
@@ -38689,7 +38689,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3709
 		{
@@ -38699,7 +38699,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3710
 		{
@@ -38709,7 +38709,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3711
 		{
@@ -38719,7 +38719,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3712
 		{
@@ -38929,7 +38929,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TTowerBig_2_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3733
 		{
@@ -38962,7 +38962,7 @@ class Mission
 			vehicle="Land_BagBunker_Small_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3736
 		{
@@ -38990,7 +38990,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-0.8]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3739
 		{
@@ -39000,7 +39000,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-0.8]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3740
 		{
@@ -39012,7 +39012,7 @@ class Mission
 			vehicle="Land_BagBunker_Small_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3741
 		{
@@ -39022,7 +39022,7 @@ class Mission
 			side="EMPTY";
 			vehicle="CamoNet_BLUFOR_open_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-0,5]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3742
 		{
@@ -39032,7 +39032,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TouristShelter_01_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3743
 		{
@@ -39042,7 +39042,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Long_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3744
 		{
@@ -39052,7 +39052,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Long_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3745
 		{
@@ -39062,7 +39062,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Long_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3746
 		{
@@ -39072,7 +39072,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Long_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3747
 		{
@@ -39082,7 +39082,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Long_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.7]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3748
 		{
@@ -39092,7 +39092,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Long_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.7]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3749
 		{
@@ -39102,7 +39102,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Camping_Light_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.30]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3750
 		{
@@ -39112,7 +39112,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CampingChair_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3751
 		{
@@ -39122,7 +39122,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CampingChair_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3752
 		{
@@ -39132,7 +39132,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CampingChair_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3753
 		{
@@ -39142,7 +39142,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CampingChair_V1_folded_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.199]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3754
 		{
@@ -39152,7 +39152,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CampingChair_V1_folded_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3755
 		{
@@ -39162,7 +39162,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3756
 		{
@@ -39172,7 +39172,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3757
 		{
@@ -39182,7 +39182,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3758
 		{
@@ -39192,7 +39192,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3759
 		{
@@ -39202,7 +39202,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3760
 		{
@@ -39212,7 +39212,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3761
 		{
@@ -39222,7 +39222,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3762
 		{
@@ -39232,7 +39232,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3763
 		{
@@ -39269,7 +39269,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3767
 		{
@@ -39279,7 +39279,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3768
 		{
@@ -39298,7 +39298,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3770
 		{
@@ -39308,7 +39308,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3771
 		{
@@ -39318,7 +39318,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3772
 		{
@@ -39328,7 +39328,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3773
 		{
@@ -39338,7 +39338,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3774
 		{
@@ -39348,7 +39348,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3775
 		{
@@ -39358,7 +39358,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3776
 		{
@@ -39368,7 +39368,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3777
 		{
@@ -39378,7 +39378,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3778
 		{
@@ -39388,7 +39388,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3779
 		{
@@ -39398,7 +39398,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3780
 		{
@@ -39408,7 +39408,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3781
 		{
@@ -39418,7 +39418,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3782
 		{
@@ -39428,7 +39428,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3783
 		{
@@ -39438,7 +39438,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3784
 		{
@@ -39448,7 +39448,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3785
 		{
@@ -39458,7 +39458,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3786
 		{
@@ -39468,7 +39468,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3787
 		{
@@ -39478,7 +39478,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-1,5]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3788
 		{
@@ -39488,7 +39488,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-1,5]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3789
 		{
@@ -39498,7 +39498,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Shoot_House_Panels_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-1,5]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
 		};
 		class Item3790
 		{
@@ -39509,7 +39509,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3791
 		{
@@ -39520,7 +39520,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3792
 		{
@@ -39531,7 +39531,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-0,8]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3793
 		{
@@ -39542,7 +39542,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3794
 		{
@@ -39553,7 +39553,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3795
 		{
@@ -39564,7 +39564,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3796
 		{
@@ -39575,7 +39575,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3797
 		{
@@ -39586,7 +39586,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3798
 		{
@@ -39597,7 +39597,7 @@ class Mission
 			vehicle="Target_PopUp_Moving_90deg_Acc2_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0,3]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3799
 		{
@@ -39607,7 +39607,7 @@ class Mission
 			side="EMPTY";
 			vehicle="CamoNet_BLUFOR_open_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-0,5]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3800
 		{
@@ -39617,7 +39617,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3801
 		{
@@ -39627,7 +39627,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3802
 		{
@@ -39637,7 +39637,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3803
 		{
@@ -39692,7 +39692,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3808
 		{
@@ -39703,7 +39703,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3809
 		{
@@ -39714,7 +39714,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3810
 		{
@@ -39725,7 +39725,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3811
 		{
@@ -39780,7 +39780,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3816
 		{
@@ -39791,7 +39791,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3817
 		{
@@ -39802,7 +39802,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3818
 		{
@@ -39813,7 +39813,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3819
 		{
@@ -39824,7 +39824,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3820
 		{
@@ -39835,7 +39835,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3821
 		{
@@ -39846,7 +39846,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3822
 		{
@@ -39857,7 +39857,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3823
 		{
@@ -39868,7 +39868,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3824
 		{
@@ -39879,7 +39879,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3825
 		{
@@ -39890,7 +39890,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3826
 		{
@@ -39901,7 +39901,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3827
 		{
@@ -39912,7 +39912,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3828
 		{
@@ -39923,7 +39923,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3829
 		{
@@ -39934,7 +39934,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3830
 		{
@@ -39945,7 +39945,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3831
 		{
@@ -39956,7 +39956,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3832
 		{
@@ -39967,7 +39967,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3833
 		{
@@ -39978,7 +39978,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3834
 		{
@@ -39989,7 +39989,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3835
 		{
@@ -40000,7 +40000,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3836
 		{
@@ -40011,7 +40011,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3837
 		{
@@ -40022,7 +40022,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3838
 		{
@@ -40033,7 +40033,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3839
 		{
@@ -40044,7 +40044,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3840
 		{
@@ -40055,7 +40055,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3841
 		{
@@ -40066,7 +40066,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3842
 		{
@@ -40077,7 +40077,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3843
 		{
@@ -40088,7 +40088,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3844
 		{
@@ -40099,7 +40099,7 @@ class Mission
 			vehicle="Land_BagFence_Long_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3845
 		{
@@ -40110,7 +40110,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3846
 		{
@@ -40121,7 +40121,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3847
 		{
@@ -40132,7 +40132,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3848
 		{
@@ -40143,7 +40143,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3849
 		{
@@ -40154,7 +40154,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3850
 		{
@@ -40165,7 +40165,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3851
 		{
@@ -40175,7 +40175,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3852
 		{
@@ -40185,7 +40185,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3853
 		{
@@ -40195,7 +40195,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3854
 		{
@@ -40205,7 +40205,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3855
 		{
@@ -40215,7 +40215,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3856
 		{
@@ -40225,7 +40225,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Mil_WallBig_4m_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3857
 		{
@@ -40235,7 +40235,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_dp_transformer_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3858
 		{
@@ -40245,7 +40245,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_dp_transformer_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3859
 		{
@@ -40255,7 +40255,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_dp_transformer_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3860
 		{
@@ -40265,7 +40265,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_dp_transformer_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3861
 		{
@@ -40275,7 +40275,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_dp_transformer_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3862
 		{
@@ -40285,7 +40285,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_dp_transformer_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3863
 		{
@@ -40296,7 +40296,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3864
 		{
@@ -40307,7 +40307,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3865
 		{
@@ -40318,7 +40318,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3866
 		{
@@ -40329,7 +40329,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-0.1]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3867
 		{
@@ -40340,7 +40340,7 @@ class Mission
 			vehicle="Land_Pipe_fence_4mNoLC_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),-0.30]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3868
 		{
@@ -40350,7 +40350,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3869
 		{
@@ -40360,7 +40360,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3870
 		{
@@ -40370,7 +40370,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3871
 		{
@@ -40380,7 +40380,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3872
 		{
@@ -40391,7 +40391,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3873
 		{
@@ -40402,7 +40402,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3874
 		{
@@ -40413,7 +40413,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3875
 		{
@@ -40424,7 +40424,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3876
 		{
@@ -40435,7 +40435,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3877
 		{
@@ -40446,7 +40446,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3878
 		{
@@ -40457,7 +40457,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3879
 		{
@@ -40467,7 +40467,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3880
 		{
@@ -40477,7 +40477,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3881
 		{
@@ -40487,7 +40487,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3882
 		{
@@ -40497,7 +40497,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3883
 		{
@@ -40507,7 +40507,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3884
 		{
@@ -40517,7 +40517,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3885
 		{
@@ -40527,7 +40527,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3886
 		{
@@ -40537,7 +40537,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3887
 		{
@@ -40547,7 +40547,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3888
 		{
@@ -40557,7 +40557,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3889
 		{
@@ -40567,7 +40567,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3890
 		{
@@ -40577,7 +40577,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_green_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3891
 		{
@@ -40596,7 +40596,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3893
 		{
@@ -40606,7 +40606,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3894
 		{
@@ -40616,7 +40616,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3895
 		{
@@ -40626,7 +40626,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Flush_Light_red_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3896
 		{
@@ -40637,7 +40637,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3897
 		{
@@ -40647,7 +40647,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3898
 		{
@@ -40657,7 +40657,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3899
 		{
@@ -40668,7 +40668,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3900
 		{
@@ -40679,7 +40679,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3901
 		{
@@ -40690,7 +40690,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3902
 		{
@@ -40701,7 +40701,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3903
 		{
@@ -40712,7 +40712,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3904
 		{
@@ -40723,7 +40723,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3905
 		{
@@ -40734,7 +40734,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3906
 		{
@@ -40745,7 +40745,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3907
 		{
@@ -40756,7 +40756,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3908
 		{
@@ -40767,7 +40767,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3909
 		{
@@ -40778,7 +40778,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3910
 		{
@@ -40789,7 +40789,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3911
 		{
@@ -40800,7 +40800,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3912
 		{
@@ -40811,7 +40811,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3913
 		{
@@ -40822,7 +40822,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3914
 		{
@@ -40833,7 +40833,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3915
 		{
@@ -40843,7 +40843,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3916
 		{
@@ -40853,7 +40853,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3917
 		{
@@ -40864,7 +40864,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3918
 		{
@@ -40874,7 +40874,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3919
 		{
@@ -40884,7 +40884,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3920
 		{
@@ -40895,7 +40895,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3921
 		{
@@ -40905,7 +40905,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3922
 		{
@@ -40915,7 +40915,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagFence_Round_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3923
 		{
@@ -40926,7 +40926,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3924
 		{
@@ -40937,7 +40937,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),15]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3925
 		{
@@ -40948,7 +40948,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),15]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3926
 		{
@@ -40959,7 +40959,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),15]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3927
 		{
@@ -40970,7 +40970,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),15]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3928
 		{
@@ -40981,7 +40981,7 @@ class Mission
 			vehicle="Land_PaperBox_open_full_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3929
 		{
@@ -40992,7 +40992,7 @@ class Mission
 			vehicle="Land_PaperBox_open_full_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3930
 		{
@@ -41057,7 +41057,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Medevac_house_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3936
 		{
@@ -41067,7 +41067,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TableDesk_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.766]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3937
 		{
@@ -41077,7 +41077,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Laptop_device_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.58]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3938
 		{
@@ -41087,7 +41087,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_ChairWood_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.7]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3939
 		{
@@ -41097,7 +41097,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_File_research_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3940
 		{
@@ -41107,7 +41107,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_FoodContainer_01_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3941
 		{
@@ -41117,7 +41117,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Matches_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3942
 		{
@@ -41127,7 +41127,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Matches_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3943
 		{
@@ -41137,7 +41137,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Matches_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.58]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3944
 		{
@@ -41147,7 +41147,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_PenBlack_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3945
 		{
@@ -41157,7 +41157,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_FoodContainer_01_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3946
 		{
@@ -41167,7 +41167,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_ShelvesWooden_khaki_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3947
 		{
@@ -41177,7 +41177,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_ShelvesWooden_khaki_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3948
 		{
@@ -41187,7 +41187,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MapBoard_altis_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.64]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3949
 		{
@@ -41197,7 +41197,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Medevac_house_V1_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3950
 		{
@@ -41207,7 +41207,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TableDesk_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.766]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3951
 		{
@@ -41217,7 +41217,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Laptop_device_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.58]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3952
 		{
@@ -41227,7 +41227,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_ChairWood_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.7]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3953
 		{
@@ -41237,7 +41237,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_File_research_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3954
 		{
@@ -41247,7 +41247,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_FoodContainer_01_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3955
 		{
@@ -41257,7 +41257,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Matches_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3956
 		{
@@ -41267,7 +41267,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Matches_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3957
 		{
@@ -41277,7 +41277,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Matches_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.58]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3958
 		{
@@ -41287,7 +41287,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_PenBlack_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),1.578]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3959
 		{
@@ -41297,7 +41297,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_FoodContainer_01_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3960
 		{
@@ -41307,7 +41307,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_ShelvesWooden_khaki_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3961
 		{
@@ -41317,7 +41317,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_ShelvesWooden_khaki_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.76]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3962
 		{
@@ -41327,7 +41327,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MapBoard_altis_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1),0.64]; this setvectorup [0,0,1]; this allowdamage false; this enablesimulation false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3963
 		{
@@ -41348,7 +41348,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3965
 		{
@@ -41359,7 +41359,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3966
 		{
@@ -41370,7 +41370,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3967
 		{
@@ -41381,7 +41381,7 @@ class Mission
 			vehicle="Land_LampHarbour_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3968
 		{
@@ -41391,7 +41391,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_WoodenTable_large_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3969
 		{
@@ -41401,7 +41401,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_WoodenTable_large_F";
 			skill=0.60000002;
-			init="this setPos [(getPos this select 0),(getPos this select 1)]; this setvectorup [0,0,1]; this allowdamage false;";
+			init="this enableSimulation false; this setvectorup [0,0,1]; this allowdamage false;";
 		};
 		class Item3970
 		{
