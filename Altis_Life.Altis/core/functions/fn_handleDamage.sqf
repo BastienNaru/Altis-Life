@@ -5,7 +5,7 @@
 	Description:
 	Handles damage, specifically for handling the 'tazer' pistol and nothing else.
 */
-private["_unit","_damage","_source","_projectile","_part","_curWep","_isTazer"];
+private["_unit","_damage","_source","_projectile","_part","_curWep","_oldDamage"];
 _unit = _this select 0;
 _part = _this select 1;
 _damage = _this select 2;
@@ -21,15 +21,14 @@ if(!isNil "TON_Debug") then {
 
 //Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
-	if(_source != _unit) exitWith {
+	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["B_9x21_Ball"] && _curWep in ["hgun_P07_F","hgun_P07_snds_F"]) then {
+		if(_projectile in ["B_9x21_Ball"] && _curWep in ["hgun_P07_F","hgun_P07_snds_F"]) exitWith {
 			private["_distance","_isVehicle","_isQuad"];
 			_distance = 15;
 			_isVehicle = if(vehicle player != player) then {true} else {false};
 			_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) in ["B_Quadbike_01_F","C_Kart_01_F"]) then {true} else {false}} else {false};
 			
-			_damage = 0;
 			if(_unit distance _source < _distance) then {
 				if(!life_istazed && !(_unit getVariable["restrained",false])) then {
 					if(_isVehicle) then {
