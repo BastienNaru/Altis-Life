@@ -59,7 +59,7 @@ switch (_filter) do
 		
 		if (__GETC__(life_coplevel) > 6) then 
 		{
-			_ret pushBack ["H_Beret_02",nil,100];
+			_ret set[count _ret,["H_Beret_02",nil,100]];
 		};
 		
 		if(__GETC__(life_coplevel) > 8) then

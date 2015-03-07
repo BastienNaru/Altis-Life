@@ -429,6 +429,7 @@ switch(_shop) do
 			["ItemRadio",nil,200],
 			["Binocular",nil,150],
 			["Rangefinder",nil,3400],
+			["NVGoggles",nil,2500],
 			["Chemlight_red",nil,300],
 			["Chemlight_yellow",nil,300],
 			["Chemlight_green",nil,300],
