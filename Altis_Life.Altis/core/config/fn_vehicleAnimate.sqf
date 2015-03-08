@@ -52,8 +52,13 @@ if(!_preset) then
 		{
 			if(typeOf _vehicle == "C_Offroad_01_F") then {
 				waitUntil {!isNil {_vehicle getVariable "Life_VEH_color"}};
+				
+				if (_vehicle getVariable "Life_VEH_color" == 12) then 
+				{
+					_vehicle animate ["HidePolice", 0];
+					_vehicle setVariable["lights",false,true];
+				};
 			};
-			_vehicle animate ["HidePolice", 0];
 			_vehicle setVariable["lights",false,true];
 		};
 		
