@@ -57,6 +57,19 @@ if(!_preset) then
 			_vehicle setVariable["lights",false,true];
 		};
 		
+		case "med_lights":
+		{
+			waitUntil {!isNil {_vehicle getVariable "Life_VEH_color"}};
+			
+			switch () 
+				if (_vehicle getVariable "Life_VEH_color" == 0) then 
+				{
+					
+				};
+			_vehicle setVariable["lights",false,true];
+			
+		};
+		
 		case "merco_offroad":
 		{
 			if(typeOf _vehicle == "C_Offroad_01_F") then {
