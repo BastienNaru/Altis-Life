@@ -37,10 +37,16 @@ if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) the
 
 		while{true} do
 		{
-			if(animationState player != "InBaseMoves_repairVehicleKnl") then {
-				[[player,"InBaseMoves_repairVehicleKnl"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
-				player playMoveNow "InBaseMoves_repairVehicleKnl";
-			};
+			if(animationState player != "AinvPknlMstpsnonWnonDnon_medic_1" ) then {
+				player action ["SwitchWeapon", player, player, 100];   //EDIT
+				player playMove "AinvPknlMstpsnonWnonDnon_medic_1"; //Durée action 6.5 secondes
+				player playActionNow "stop";
+				player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
+				player playActionNow "stop";
+				player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
+		};
+
+		sleep 0.195; // 3 fois 6.5 secondes = 19,5secondes
 			
 			if((_sfx)) then {
 				_veh say3D "repair";
